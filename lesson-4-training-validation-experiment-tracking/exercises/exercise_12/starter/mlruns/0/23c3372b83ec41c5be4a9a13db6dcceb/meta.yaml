@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/mlruns/0/23c3372b83ec41c5be4a9a13db6dcceb/artifacts
+end_time: 1748282798391
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 23c3372b83ec41c5be4a9a13db6dcceb
+run_name: angry-jay-497
+run_uuid: 23c3372b83ec41c5be4a9a13db6dcceb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748282726229
+status: 4
+tags: []
+user_id: sjwalker

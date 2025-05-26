@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/db33969c40b547c1a217fe316da64870/artifacts
+end_time: 1748271696284
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: db33969c40b547c1a217fe316da64870
+run_name: stylish-skink-745
+run_uuid: db33969c40b547c1a217fe316da64870
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748271631783
+status: 4
+tags: []
+user_id: sjwalker

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/42eb6190bde94fd197f6be95dd8f79c4/artifacts
+end_time: 1748279088054
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 42eb6190bde94fd197f6be95dd8f79c4
+run_name: nosy-auk-831
+run_uuid: 42eb6190bde94fd197f6be95dd8f79c4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748278936509
+status: 3
+tags: []
+user_id: sjwalker

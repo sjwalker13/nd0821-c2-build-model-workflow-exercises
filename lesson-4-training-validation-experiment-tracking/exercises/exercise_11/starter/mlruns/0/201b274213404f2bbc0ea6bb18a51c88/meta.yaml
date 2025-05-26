@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/201b274213404f2bbc0ea6bb18a51c88/artifacts
+end_time: 1748278665691
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 201b274213404f2bbc0ea6bb18a51c88
+run_name: zealous-mole-590
+run_uuid: 201b274213404f2bbc0ea6bb18a51c88
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748278598728
+status: 3
+tags: []
+user_id: sjwalker

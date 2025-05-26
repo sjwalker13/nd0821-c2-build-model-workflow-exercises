@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/15a8eb1446e14061aa0004a8403adb34/artifacts
+end_time: 1748271383439
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 15a8eb1446e14061aa0004a8403adb34
+run_name: traveling-shad-916
+run_uuid: 15a8eb1446e14061aa0004a8403adb34
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748271297107
+status: 4
+tags: []
+user_id: sjwalker

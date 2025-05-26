@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/demo/hydra_sweeps/mlruns/0/623c3ff6e8e04fd087abcf9188a6d469/artifacts
+end_time: 1748275770288
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 623c3ff6e8e04fd087abcf9188a6d469
+run_name: melodic-kite-638
+run_uuid: 623c3ff6e8e04fd087abcf9188a6d469
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748275768553
+status: 4
+tags: []
+user_id: sjwalker

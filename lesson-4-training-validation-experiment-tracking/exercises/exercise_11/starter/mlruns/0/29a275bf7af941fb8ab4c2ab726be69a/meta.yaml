@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/29a275bf7af941fb8ab4c2ab726be69a/artifacts
+end_time: 1748279011836
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 29a275bf7af941fb8ab4c2ab726be69a
+run_name: suave-boar-991
+run_uuid: 29a275bf7af941fb8ab4c2ab726be69a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748278852538
+status: 3
+tags: []
+user_id: sjwalker

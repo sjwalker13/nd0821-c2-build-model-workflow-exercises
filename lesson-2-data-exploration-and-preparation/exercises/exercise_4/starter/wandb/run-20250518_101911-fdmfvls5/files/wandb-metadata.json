@@ -1,0 +1,40 @@
+{
+  "os": "Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "python": "CPython 3.12.9",
+  "startedAt": "2025-05-18T14:19:11.392939Z",
+  "args": [
+    "artifact",
+    "put",
+    "--name",
+    "exercise_4/genres_mod.parquet",
+    "--type",
+    "raw_data",
+    "--description",
+    "A modified version of the songs dataset",
+    "genres_mod.parquet"
+  ],
+  "program": "/home/sjwalker/miniconda3/bin/wandb",
+  "git": {
+    "remote": "https://github.com/sjwalker13/nd0821-c2-build-model-workflow-exercises.git",
+    "commit": "0d72086a9301bf656d4656f49cc342b126b71048"
+  },
+  "email": "swal706@wgu.edu",
+  "root": "/home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter",
+  "host": "LAPTOP-HSA1K6RP",
+  "executable": "/home/sjwalker/miniconda3/bin/python",
+  "cpu_count": 4,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "1081101176832",
+      "used": "16953253888"
+    }
+  },
+  "memory": {
+    "total": "6094348288"
+  },
+  "cpu": {
+    "count": 4,
+    "countLogical": 8
+  }
+}

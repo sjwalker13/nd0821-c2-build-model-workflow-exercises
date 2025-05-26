@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/ebdef47897044c0f97abbd19979c476c/artifacts
+end_time: 1748278908550
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ebdef47897044c0f97abbd19979c476c
+run_name: gentle-lynx-34
+run_uuid: ebdef47897044c0f97abbd19979c476c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748278768812
+status: 3
+tags: []
+user_id: sjwalker

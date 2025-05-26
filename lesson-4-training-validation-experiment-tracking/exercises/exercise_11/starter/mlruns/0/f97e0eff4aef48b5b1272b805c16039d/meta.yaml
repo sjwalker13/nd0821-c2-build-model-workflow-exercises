@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/f97e0eff4aef48b5b1272b805c16039d/artifacts
+end_time: 1748278923824
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f97e0eff4aef48b5b1272b805c16039d
+run_name: caring-snipe-384
+run_uuid: f97e0eff4aef48b5b1272b805c16039d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748278777379
+status: 3
+tags: []
+user_id: sjwalker

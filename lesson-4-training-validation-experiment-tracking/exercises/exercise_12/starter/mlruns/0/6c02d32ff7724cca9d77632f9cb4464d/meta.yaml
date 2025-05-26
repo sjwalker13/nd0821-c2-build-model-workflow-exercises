@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/mlruns/0/6c02d32ff7724cca9d77632f9cb4464d/artifacts
+end_time: 1748283457180
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6c02d32ff7724cca9d77632f9cb4464d
+run_name: rogue-sow-977
+run_uuid: 6c02d32ff7724cca9d77632f9cb4464d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748283432467
+status: 4
+tags: []
+user_id: sjwalker

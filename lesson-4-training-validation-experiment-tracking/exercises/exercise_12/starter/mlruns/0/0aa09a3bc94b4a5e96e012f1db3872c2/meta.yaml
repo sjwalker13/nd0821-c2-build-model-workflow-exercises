@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/mlruns/0/0aa09a3bc94b4a5e96e012f1db3872c2/artifacts
+end_time: 1748282798650
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0aa09a3bc94b4a5e96e012f1db3872c2
+run_name: polite-mink-34
+run_uuid: 0aa09a3bc94b4a5e96e012f1db3872c2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748282685610
+status: 4
+tags: []
+user_id: sjwalker

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/8bb6ff70e53f4f7b84fae80f6d731f76/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8bb6ff70e53f4f7b84fae80f6d731f76
+run_name: crawling-horse-528
+run_uuid: 8bb6ff70e53f4f7b84fae80f6d731f76
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747579643171
+status: 1
+tags: []
+user_id: sjwalker

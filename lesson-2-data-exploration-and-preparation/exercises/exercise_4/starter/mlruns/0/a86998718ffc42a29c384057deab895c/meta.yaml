@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/a86998718ffc42a29c384057deab895c/artifacts
+end_time: 1747578424646
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a86998718ffc42a29c384057deab895c
+run_name: rare-mole-393
+run_uuid: a86998718ffc42a29c384057deab895c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747578421651
+status: 4
+tags: []
+user_id: sjwalker

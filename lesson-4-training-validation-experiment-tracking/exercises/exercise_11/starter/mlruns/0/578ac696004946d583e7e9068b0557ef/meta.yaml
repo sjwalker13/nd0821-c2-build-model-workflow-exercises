@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/578ac696004946d583e7e9068b0557ef/artifacts
+end_time: 1748279168318
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 578ac696004946d583e7e9068b0557ef
+run_name: omniscient-hog-176
+run_uuid: 578ac696004946d583e7e9068b0557ef
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748279020953
+status: 3
+tags: []
+user_id: sjwalker

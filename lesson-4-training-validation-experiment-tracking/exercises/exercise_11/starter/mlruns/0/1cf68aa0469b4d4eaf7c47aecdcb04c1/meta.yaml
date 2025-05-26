@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/1cf68aa0469b4d4eaf7c47aecdcb04c1/artifacts
+end_time: 1748278287717
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1cf68aa0469b4d4eaf7c47aecdcb04c1
+run_name: calm-carp-153
+run_uuid: 1cf68aa0469b4d4eaf7c47aecdcb04c1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748278272962
+status: 3
+tags: []
+user_id: sjwalker

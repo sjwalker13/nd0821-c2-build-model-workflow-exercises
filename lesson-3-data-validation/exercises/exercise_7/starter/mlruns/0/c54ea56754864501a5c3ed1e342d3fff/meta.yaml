@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-3-data-validation/exercises/exercise_7/starter/mlruns/0/c54ea56754864501a5c3ed1e342d3fff/artifacts
+end_time: 1748198326737
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c54ea56754864501a5c3ed1e342d3fff
+run_name: rumbling-roo-296
+run_uuid: c54ea56754864501a5c3ed1e342d3fff
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748198285742
+status: 3
+tags: []
+user_id: sjwalker

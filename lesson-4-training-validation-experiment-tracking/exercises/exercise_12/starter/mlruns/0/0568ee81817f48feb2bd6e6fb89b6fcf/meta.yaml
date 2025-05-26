@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/mlruns/0/0568ee81817f48feb2bd6e6fb89b6fcf/artifacts
+end_time: 1748282377382
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0568ee81817f48feb2bd6e6fb89b6fcf
+run_name: industrious-boar-335
+run_uuid: 0568ee81817f48feb2bd6e6fb89b6fcf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748282319237
+status: 4
+tags: []
+user_id: sjwalker

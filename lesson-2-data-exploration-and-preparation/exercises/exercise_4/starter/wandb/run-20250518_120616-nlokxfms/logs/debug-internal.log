@@ -1,0 +1,304 @@
+2025-05-18 12:06:16,813 INFO    StreamThr :3610154 [internal.py:wandb_internal():86] W&B internal server running at pid: 3610154, started at: 2025-05-18 12:06:16.812321
+2025-05-18 12:06:16,815 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: status
+2025-05-18 12:06:16,819 INFO    WriterThread:3610154 [datastore.py:open_for_write():87] open: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20250518_120616-nlokxfms/run-nlokxfms.wandb
+2025-05-18 12:06:16,820 DEBUG   SenderThread:3610154 [sender.py:send():378] send: header
+2025-05-18 12:06:16,917 DEBUG   SenderThread:3610154 [sender.py:send():378] send: run
+2025-05-18 12:06:17,155 INFO    SenderThread:3610154 [dir_watcher.py:__init__():211] watching files in: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20250518_120616-nlokxfms/files
+2025-05-18 12:06:17,155 INFO    SenderThread:3610154 [sender.py:_start_run_threads():1099] run started: nlokxfms with start time 1747584376.814302
+2025-05-18 12:06:17,164 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: check_version
+2025-05-18 12:06:17,164 DEBUG   SenderThread:3610154 [sender.py:send_request():405] send_request: check_version
+2025-05-18 12:06:17,269 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: run_start
+2025-05-18 12:06:17,270 DEBUG   HandlerThread:3610154 [system_info.py:__init__():26] System info init
+2025-05-18 12:06:17,270 DEBUG   HandlerThread:3610154 [system_info.py:__init__():41] System info init done
+2025-05-18 12:06:17,270 INFO    HandlerThread:3610154 [system_monitor.py:start():194] Starting system monitor
+2025-05-18 12:06:17,271 INFO    SystemMonitor:3610154 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-05-18 12:06:17,271 INFO    HandlerThread:3610154 [system_monitor.py:probe():214] Collecting system info
+2025-05-18 12:06:17,271 INFO    SystemMonitor:3610154 [interfaces.py:start():190] Started cpu monitoring
+2025-05-18 12:06:17,273 INFO    SystemMonitor:3610154 [interfaces.py:start():190] Started disk monitoring
+2025-05-18 12:06:17,275 INFO    SystemMonitor:3610154 [interfaces.py:start():190] Started memory monitoring
+2025-05-18 12:06:17,276 INFO    SystemMonitor:3610154 [interfaces.py:start():190] Started network monitoring
+2025-05-18 12:06:17,284 DEBUG   HandlerThread:3610154 [system_info.py:probe():150] Probing system
+2025-05-18 12:06:17,316 DEBUG   HandlerThread:3610154 [system_info.py:_probe_git():135] Probing git
+2025-05-18 12:06:17,324 DEBUG   HandlerThread:3610154 [system_info.py:_probe_git():143] Probing git done
+2025-05-18 12:06:17,324 DEBUG   HandlerThread:3610154 [system_info.py:probe():198] Probing system done
+2025-05-18 12:06:17,324 DEBUG   HandlerThread:3610154 [system_monitor.py:probe():223] {'os': 'Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.39', 'python': '3.12.10', 'heartbeatAt': '2025-05-18T16:06:17.284677', 'startedAt': '2025-05-18T16:06:16.799714', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'EDA.ipynb', 'codePathLocal': 'EDA.ipynb', 'root': '/home/sjwalker/nd0821-c2-build-model-workflow-exercises-4', 'git': {'remote': 'https://github.com/sjwalker13/nd0821-c2-build-model-workflow-exercises.git', 'commit': '0d72086a9301bf656d4656f49cc342b126b71048'}, 'email': 'you@example.com', 'host': 'LAPTOP-HSA1K6RP', 'username': 'sjwalker', 'executable': '/home/sjwalker/miniconda3/envs/mlflow-ac46c7d6f125b9108bfed7c3910fb75a98ba49a2/bin/python', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 1689.6010000000003, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 1689.601, 'min': 0.0, 'max': 0.0}, {'current': 1689.601, 'min': 0.0, 'max': 0.0}, {'current': 1689.601, 'min': 0.0, 'max': 0.0}, {'current': 1689.601, 'min': 0.0, 'max': 0.0}, {'current': 1689.601, 'min': 0.0, 'max': 0.0}, {'current': 1689.601, 'min': 0.0, 'max': 0.0}, {'current': 1689.601, 'min': 0.0, 'max': 0.0}, {'current': 1689.601, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 1006.853931427002, 'used': 17.283557891845703}}, 'memory': {'total': 5.675804138183594}}
+2025-05-18 12:06:17,324 INFO    HandlerThread:3610154 [system_monitor.py:probe():224] Finished collecting system info
+2025-05-18 12:06:17,324 INFO    HandlerThread:3610154 [system_monitor.py:probe():227] Publishing system info
+2025-05-18 12:06:17,324 DEBUG   HandlerThread:3610154 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2025-05-18 12:06:18,157 INFO    Thread-12 :3610154 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20250518_120616-nlokxfms/files/conda-environment.yaml
+2025-05-18 12:06:21,136 DEBUG   HandlerThread:3610154 [system_info.py:_save_conda():219] Saving conda packages done
+2025-05-18 12:06:21,136 DEBUG   HandlerThread:3610154 [system_info.py:_save_code():44] Saving code
+2025-05-18 12:06:21,136 WARNING HandlerThread:3610154 [system_info.py:_save_code():46] unable to save code -- program entry not found
+2025-05-18 12:06:21,136 DEBUG   HandlerThread:3610154 [system_info.py:_save_patches():82] Saving git patches
+2025-05-18 12:06:21,156 INFO    Thread-12 :3610154 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20250518_120616-nlokxfms/files/conda-environment.yaml
+2025-05-18 12:06:21,373 DEBUG   HandlerThread:3610154 [system_info.py:_save_patches():124] Saving git patches done
+2025-05-18 12:06:21,374 INFO    HandlerThread:3610154 [system_monitor.py:probe():229] Finished publishing system info
+2025-05-18 12:06:21,377 DEBUG   SenderThread:3610154 [sender.py:send():378] send: files
+2025-05-18 12:06:21,377 INFO    SenderThread:3610154 [sender.py:_save_file():1365] saving file wandb-metadata.json with policy now
+2025-05-18 12:06:21,378 INFO    SenderThread:3610154 [sender.py:_save_file():1365] saving file diff.patch with policy now
+2025-05-18 12:06:21,560 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: python_packages
+2025-05-18 12:06:21,560 DEBUG   SenderThread:3610154 [sender.py:send_request():405] send_request: python_packages
+2025-05-18 12:06:21,561 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: stop_status
+2025-05-18 12:06:21,562 DEBUG   SenderThread:3610154 [sender.py:send_request():405] send_request: stop_status
+2025-05-18 12:06:21,563 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: internal_messages
+2025-05-18 12:06:21,686 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: log_artifact
+2025-05-18 12:06:21,690 DEBUG   SenderThread:3610154 [sender.py:send():378] send: telemetry
+2025-05-18 12:06:21,691 DEBUG   SenderThread:3610154 [sender.py:send_request():405] send_request: log_artifact
+2025-05-18 12:06:21,692 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: pause
+2025-05-18 12:06:21,692 INFO    HandlerThread:3610154 [handler.py:handle_request_pause():708] stopping system metrics thread
+2025-05-18 12:06:21,692 INFO    HandlerThread:3610154 [system_monitor.py:finish():203] Stopping system monitor
+2025-05-18 12:06:21,692 DEBUG   SystemMonitor:3610154 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-05-18 12:06:21,692 DEBUG   SystemMonitor:3610154 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-05-18 12:06:21,693 INFO    HandlerThread:3610154 [interfaces.py:finish():202] Joined cpu monitor
+2025-05-18 12:06:21,693 DEBUG   SystemMonitor:3610154 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-05-18 12:06:21,693 INFO    HandlerThread:3610154 [interfaces.py:finish():202] Joined disk monitor
+2025-05-18 12:06:21,694 INFO    HandlerThread:3610154 [interfaces.py:finish():202] Joined memory monitor
+2025-05-18 12:06:21,694 INFO    HandlerThread:3610154 [interfaces.py:finish():202] Joined network monitor
+2025-05-18 12:06:21,694 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: resume
+2025-05-18 12:06:21,694 INFO    HandlerThread:3610154 [handler.py:handle_request_resume():699] starting system metrics thread
+2025-05-18 12:06:21,694 INFO    HandlerThread:3610154 [system_monitor.py:start():194] Starting system monitor
+2025-05-18 12:06:21,694 INFO    SystemMonitor:3610154 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-05-18 12:06:21,695 INFO    SystemMonitor:3610154 [interfaces.py:start():190] Started cpu monitoring
+2025-05-18 12:06:21,696 INFO    SystemMonitor:3610154 [interfaces.py:start():190] Started disk monitoring
+2025-05-18 12:06:21,696 INFO    SystemMonitor:3610154 [interfaces.py:start():190] Started memory monitoring
+2025-05-18 12:06:21,698 INFO    SystemMonitor:3610154 [interfaces.py:start():190] Started network monitoring
+2025-05-18 12:06:21,764 INFO    wandb-upload_0:3610154 [upload_job.py:push():131] Uploaded file /tmp/tmpw2505hj0wandb/h8q8tl69-wandb-metadata.json
+2025-05-18 12:06:21,802 INFO    wandb-upload_1:3610154 [upload_job.py:push():131] Uploaded file /tmp/tmpw2505hj0wandb/7mlm42zh-diff.patch
+2025-05-18 12:06:22,157 INFO    Thread-12 :3610154 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20250518_120616-nlokxfms/files/diff.patch
+2025-05-18 12:06:22,157 INFO    Thread-12 :3610154 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20250518_120616-nlokxfms/files/wandb-metadata.json
+2025-05-18 12:06:22,157 INFO    Thread-12 :3610154 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20250518_120616-nlokxfms/files/requirements.txt
+2025-05-18 12:06:22,375 INFO    wandb-upload_0:3610154 [upload_job.py:push():89] Uploaded file /home/sjwalker/.local/share/wandb/artifacts/staging/tmp68g6rx00
+2025-05-18 12:06:22,519 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: log_artifact
+2025-05-18 12:06:22,520 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: pause
+2025-05-18 12:06:22,520 INFO    HandlerThread:3610154 [handler.py:handle_request_pause():708] stopping system metrics thread
+2025-05-18 12:06:22,520 INFO    HandlerThread:3610154 [system_monitor.py:finish():203] Stopping system monitor
+2025-05-18 12:06:22,520 DEBUG   SystemMonitor:3610154 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-05-18 12:06:22,520 DEBUG   SystemMonitor:3610154 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-05-18 12:06:22,521 DEBUG   SystemMonitor:3610154 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-05-18 12:06:22,521 INFO    HandlerThread:3610154 [interfaces.py:finish():202] Joined cpu monitor
+2025-05-18 12:06:22,521 INFO    HandlerThread:3610154 [interfaces.py:finish():202] Joined disk monitor
+2025-05-18 12:06:22,522 INFO    HandlerThread:3610154 [interfaces.py:finish():202] Joined memory monitor
+2025-05-18 12:06:22,522 INFO    HandlerThread:3610154 [interfaces.py:finish():202] Joined network monitor
+2025-05-18 12:06:22,524 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: resume
+2025-05-18 12:06:22,524 INFO    HandlerThread:3610154 [handler.py:handle_request_resume():699] starting system metrics thread
+2025-05-18 12:06:22,524 INFO    HandlerThread:3610154 [system_monitor.py:start():194] Starting system monitor
+2025-05-18 12:06:22,524 INFO    SystemMonitor:3610154 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-05-18 12:06:22,524 INFO    SystemMonitor:3610154 [interfaces.py:start():190] Started cpu monitoring
+2025-05-18 12:06:22,525 INFO    SystemMonitor:3610154 [interfaces.py:start():190] Started disk monitoring
+2025-05-18 12:06:22,526 INFO    SystemMonitor:3610154 [interfaces.py:start():190] Started memory monitoring
+2025-05-18 12:06:22,527 INFO    SystemMonitor:3610154 [interfaces.py:start():190] Started network monitoring
+2025-05-18 12:06:22,642 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: log_artifact
+2025-05-18 12:06:22,643 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: pause
+2025-05-18 12:06:22,643 INFO    HandlerThread:3610154 [handler.py:handle_request_pause():708] stopping system metrics thread
+2025-05-18 12:06:22,643 INFO    HandlerThread:3610154 [system_monitor.py:finish():203] Stopping system monitor
+2025-05-18 12:06:22,643 DEBUG   SystemMonitor:3610154 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-05-18 12:06:22,644 DEBUG   SystemMonitor:3610154 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-05-18 12:06:22,644 INFO    HandlerThread:3610154 [interfaces.py:finish():202] Joined cpu monitor
+2025-05-18 12:06:22,644 DEBUG   SystemMonitor:3610154 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-05-18 12:06:22,644 INFO    HandlerThread:3610154 [interfaces.py:finish():202] Joined disk monitor
+2025-05-18 12:06:22,645 INFO    HandlerThread:3610154 [interfaces.py:finish():202] Joined memory monitor
+2025-05-18 12:06:22,645 INFO    HandlerThread:3610154 [interfaces.py:finish():202] Joined network monitor
+2025-05-18 12:06:23,027 INFO    SenderThread:3610154 [sender.py:send_request_log_artifact():1431] logged artifact source-exercise_4-EDA.ipynb - {'id': 'QXJ0aWZhY3Q6MTc0NTk1MzQ2MA==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjY0MjMzMDA0NQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTc0NTk0MjgwMg==', 'versionIndex': 15}}}
+2025-05-18 12:06:23,027 DEBUG   SenderThread:3610154 [sender.py:send():378] send: stats
+2025-05-18 12:06:23,027 DEBUG   SenderThread:3610154 [sender.py:send():378] send: use_artifact
+2025-05-18 12:06:23,028 DEBUG   SenderThread:3610154 [sender.py:send_request():405] send_request: log_artifact
+2025-05-18 12:06:23,031 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: status_report
+2025-05-18 12:06:23,133 INFO    SenderThread:3610154 [sender.py:send_request_log_artifact():1431] logged artifact source-exercise_4-EDA.ipynb - {'id': 'QXJ0aWZhY3Q6MTc0NTk1MzQ2MA==', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjY0MjMzMDA0NQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTc0NTk1MzQ2MA==', 'versionIndex': 16}}}
+2025-05-18 12:06:23,134 DEBUG   SenderThread:3610154 [sender.py:send():378] send: stats
+2025-05-18 12:06:23,134 DEBUG   SenderThread:3610154 [sender.py:send_request():405] send_request: log_artifact
+2025-05-18 12:06:23,219 INFO    SenderThread:3610154 [sender.py:send_request_log_artifact():1431] logged artifact source-exercise_4-EDA.ipynb - {'id': 'QXJ0aWZhY3Q6MTc0NTk1MzQ2MA==', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjY0MjMzMDA0NQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTc0NTk1MzQ2MA==', 'versionIndex': 16}}}
+2025-05-18 12:06:23,219 DEBUG   SenderThread:3610154 [sender.py:send():378] send: stats
+2025-05-18 12:06:25,919 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: resume
+2025-05-18 12:06:25,919 INFO    HandlerThread:3610154 [handler.py:handle_request_resume():699] starting system metrics thread
+2025-05-18 12:06:25,919 INFO    HandlerThread:3610154 [system_monitor.py:start():194] Starting system monitor
+2025-05-18 12:06:25,919 INFO    SystemMonitor:3610154 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-05-18 12:06:25,920 INFO    SystemMonitor:3610154 [interfaces.py:start():190] Started cpu monitoring
+2025-05-18 12:06:25,920 INFO    SystemMonitor:3610154 [interfaces.py:start():190] Started disk monitoring
+2025-05-18 12:06:25,921 INFO    SystemMonitor:3610154 [interfaces.py:start():190] Started memory monitoring
+2025-05-18 12:06:25,922 INFO    SystemMonitor:3610154 [interfaces.py:start():190] Started network monitoring
+2025-05-18 12:06:26,813 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: log_artifact
+2025-05-18 12:06:26,813 DEBUG   SenderThread:3610154 [sender.py:send_request():405] send_request: log_artifact
+2025-05-18 12:06:26,818 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: pause
+2025-05-18 12:06:26,818 INFO    HandlerThread:3610154 [handler.py:handle_request_pause():708] stopping system metrics thread
+2025-05-18 12:06:26,818 INFO    HandlerThread:3610154 [system_monitor.py:finish():203] Stopping system monitor
+2025-05-18 12:06:26,819 DEBUG   SystemMonitor:3610154 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-05-18 12:06:26,819 INFO    HandlerThread:3610154 [interfaces.py:finish():202] Joined cpu monitor
+2025-05-18 12:06:26,820 DEBUG   SystemMonitor:3610154 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-05-18 12:06:26,820 INFO    HandlerThread:3610154 [interfaces.py:finish():202] Joined disk monitor
+2025-05-18 12:06:26,820 DEBUG   SystemMonitor:3610154 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-05-18 12:06:26,820 INFO    HandlerThread:3610154 [interfaces.py:finish():202] Joined memory monitor
+2025-05-18 12:06:26,821 INFO    HandlerThread:3610154 [interfaces.py:finish():202] Joined network monitor
+2025-05-18 12:06:26,929 INFO    SenderThread:3610154 [sender.py:send_request_log_artifact():1431] logged artifact source-exercise_4-EDA.ipynb - {'id': 'QXJ0aWZhY3Q6MTc0NTk1MzQ2MA==', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjY0MjMzMDA0NQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTc0NTk1MzQ2MA==', 'versionIndex': 16}}}
+2025-05-18 12:06:26,929 DEBUG   SenderThread:3610154 [sender.py:send():378] send: stats
+2025-05-18 12:06:28,931 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: status_report
+2025-05-18 12:06:33,932 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: status_report
+2025-05-18 12:06:36,561 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: stop_status
+2025-05-18 12:06:36,561 DEBUG   SenderThread:3610154 [sender.py:send_request():405] send_request: stop_status
+2025-05-18 12:06:36,562 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: internal_messages
+2025-05-18 12:06:39,694 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: status_report
+2025-05-18 12:06:44,695 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: status_report
+2025-05-18 12:06:49,699 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: status_report
+2025-05-18 12:06:50,167 INFO    Thread-12 :3610154 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20250518_120616-nlokxfms/files/config.yaml
+2025-05-18 12:06:51,561 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: stop_status
+2025-05-18 12:06:51,561 DEBUG   SenderThread:3610154 [sender.py:send_request():405] send_request: stop_status
+2025-05-18 12:06:51,610 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: internal_messages
+2025-05-18 12:06:55,659 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: status_report
+2025-05-18 12:07:00,661 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: status_report
+2025-05-18 12:07:05,662 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: status_report
+2025-05-18 12:07:06,562 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: stop_status
+2025-05-18 12:07:06,562 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: internal_messages
+2025-05-18 12:07:06,562 DEBUG   SenderThread:3610154 [sender.py:send_request():405] send_request: stop_status
+2025-05-18 12:07:10,737 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: status_report
+2025-05-18 12:07:15,739 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: status_report
+2025-05-18 12:07:20,740 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: status_report
+2025-05-18 12:07:21,562 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: stop_status
+2025-05-18 12:07:21,562 DEBUG   SenderThread:3610154 [sender.py:send_request():405] send_request: stop_status
+2025-05-18 12:07:21,610 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: internal_messages
+2025-05-18 12:07:26,679 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: status_report
+2025-05-18 12:07:31,681 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: status_report
+2025-05-18 12:07:36,562 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: stop_status
+2025-05-18 12:07:36,563 DEBUG   SenderThread:3610154 [sender.py:send_request():405] send_request: stop_status
+2025-05-18 12:07:36,610 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: internal_messages
+2025-05-18 12:07:36,713 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: status_report
+2025-05-18 12:07:41,714 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: status_report
+2025-05-18 12:07:46,716 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: status_report
+2025-05-18 12:07:51,565 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: internal_messages
+2025-05-18 12:07:51,565 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: stop_status
+2025-05-18 12:07:51,565 DEBUG   SenderThread:3610154 [sender.py:send_request():405] send_request: stop_status
+2025-05-18 12:07:51,719 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: status_report
+2025-05-18 12:07:56,721 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: status_report
+2025-05-18 12:08:01,724 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: status_report
+2025-05-18 12:08:06,563 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: stop_status
+2025-05-18 12:08:06,563 DEBUG   SenderThread:3610154 [sender.py:send_request():405] send_request: stop_status
+2025-05-18 12:08:06,610 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: internal_messages
+2025-05-18 12:08:07,708 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: status_report
+2025-05-18 12:08:12,709 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: status_report
+2025-05-18 12:08:16,574 DEBUG   SenderThread:3610154 [sender.py:send():378] send: exit
+2025-05-18 12:08:16,574 INFO    SenderThread:3610154 [sender.py:send_exit():585] handling exit code: 0
+2025-05-18 12:08:16,574 INFO    SenderThread:3610154 [sender.py:send_exit():587] handling runtime: 6
+2025-05-18 12:08:16,575 INFO    SenderThread:3610154 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2025-05-18 12:08:16,575 INFO    SenderThread:3610154 [sender.py:send_exit():593] send defer
+2025-05-18 12:08:16,576 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: defer
+2025-05-18 12:08:16,576 INFO    HandlerThread:3610154 [handler.py:handle_request_defer():172] handle defer: 0
+2025-05-18 12:08:16,576 DEBUG   SenderThread:3610154 [sender.py:send_request():405] send_request: defer
+2025-05-18 12:08:16,576 INFO    SenderThread:3610154 [sender.py:send_request_defer():609] handle sender defer: 0
+2025-05-18 12:08:16,576 INFO    SenderThread:3610154 [sender.py:transition_state():613] send defer: 1
+2025-05-18 12:08:16,576 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: defer
+2025-05-18 12:08:16,576 INFO    HandlerThread:3610154 [handler.py:handle_request_defer():172] handle defer: 1
+2025-05-18 12:08:16,576 DEBUG   SenderThread:3610154 [sender.py:send_request():405] send_request: defer
+2025-05-18 12:08:16,576 INFO    SenderThread:3610154 [sender.py:send_request_defer():609] handle sender defer: 1
+2025-05-18 12:08:16,576 INFO    SenderThread:3610154 [sender.py:transition_state():613] send defer: 2
+2025-05-18 12:08:16,577 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: defer
+2025-05-18 12:08:16,577 INFO    HandlerThread:3610154 [handler.py:handle_request_defer():172] handle defer: 2
+2025-05-18 12:08:16,577 DEBUG   SenderThread:3610154 [sender.py:send_request():405] send_request: defer
+2025-05-18 12:08:16,577 INFO    SenderThread:3610154 [sender.py:send_request_defer():609] handle sender defer: 2
+2025-05-18 12:08:16,577 INFO    SenderThread:3610154 [sender.py:transition_state():613] send defer: 3
+2025-05-18 12:08:16,577 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: defer
+2025-05-18 12:08:16,577 INFO    HandlerThread:3610154 [handler.py:handle_request_defer():172] handle defer: 3
+2025-05-18 12:08:16,577 DEBUG   SenderThread:3610154 [sender.py:send_request():405] send_request: defer
+2025-05-18 12:08:16,577 INFO    SenderThread:3610154 [sender.py:send_request_defer():609] handle sender defer: 3
+2025-05-18 12:08:16,577 INFO    SenderThread:3610154 [sender.py:transition_state():613] send defer: 4
+2025-05-18 12:08:16,578 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: defer
+2025-05-18 12:08:16,578 INFO    HandlerThread:3610154 [handler.py:handle_request_defer():172] handle defer: 4
+2025-05-18 12:08:16,578 DEBUG   SenderThread:3610154 [sender.py:send_request():405] send_request: defer
+2025-05-18 12:08:16,578 INFO    SenderThread:3610154 [sender.py:send_request_defer():609] handle sender defer: 4
+2025-05-18 12:08:16,578 INFO    SenderThread:3610154 [sender.py:transition_state():613] send defer: 5
+2025-05-18 12:08:16,578 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: defer
+2025-05-18 12:08:16,578 INFO    HandlerThread:3610154 [handler.py:handle_request_defer():172] handle defer: 5
+2025-05-18 12:08:16,578 DEBUG   SenderThread:3610154 [sender.py:send():378] send: summary
+2025-05-18 12:08:16,579 INFO    SenderThread:3610154 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2025-05-18 12:08:16,579 DEBUG   SenderThread:3610154 [sender.py:send_request():405] send_request: defer
+2025-05-18 12:08:16,579 INFO    SenderThread:3610154 [sender.py:send_request_defer():609] handle sender defer: 5
+2025-05-18 12:08:16,579 INFO    SenderThread:3610154 [sender.py:transition_state():613] send defer: 6
+2025-05-18 12:08:16,579 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: defer
+2025-05-18 12:08:16,579 INFO    HandlerThread:3610154 [handler.py:handle_request_defer():172] handle defer: 6
+2025-05-18 12:08:16,579 DEBUG   SenderThread:3610154 [sender.py:send_request():405] send_request: defer
+2025-05-18 12:08:16,579 INFO    SenderThread:3610154 [sender.py:send_request_defer():609] handle sender defer: 6
+2025-05-18 12:08:16,579 INFO    SenderThread:3610154 [sender.py:transition_state():613] send defer: 7
+2025-05-18 12:08:16,579 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: status_report
+2025-05-18 12:08:16,580 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: defer
+2025-05-18 12:08:16,580 INFO    HandlerThread:3610154 [handler.py:handle_request_defer():172] handle defer: 7
+2025-05-18 12:08:16,580 DEBUG   SenderThread:3610154 [sender.py:send_request():405] send_request: defer
+2025-05-18 12:08:16,580 INFO    SenderThread:3610154 [sender.py:send_request_defer():609] handle sender defer: 7
+2025-05-18 12:08:16,580 INFO    SenderThread:3610154 [sender.py:transition_state():613] send defer: 8
+2025-05-18 12:08:16,580 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: defer
+2025-05-18 12:08:16,580 INFO    HandlerThread:3610154 [handler.py:handle_request_defer():172] handle defer: 8
+2025-05-18 12:08:16,580 DEBUG   SenderThread:3610154 [sender.py:send_request():405] send_request: defer
+2025-05-18 12:08:16,580 INFO    SenderThread:3610154 [sender.py:send_request_defer():609] handle sender defer: 8
+2025-05-18 12:08:16,580 INFO    SenderThread:3610154 [job_builder.py:build():298] Attempting to build job artifact
+2025-05-18 12:08:16,581 INFO    SenderThread:3610154 [job_builder.py:_get_source_type():428] is repo sourced job
+2025-05-18 12:08:16,581 INFO    SenderThread:3610154 [job_builder.py:_get_program_relpath():446] run is notebook based run
+2025-05-18 12:08:16,583 INFO    SenderThread:3610154 [job_builder.py:build():404] adding wandb-job metadata file
+2025-05-18 12:08:16,590 INFO    SenderThread:3610154 [sender.py:transition_state():613] send defer: 9
+2025-05-18 12:08:16,590 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: defer
+2025-05-18 12:08:16,590 INFO    HandlerThread:3610154 [handler.py:handle_request_defer():172] handle defer: 9
+2025-05-18 12:08:16,590 DEBUG   SenderThread:3610154 [sender.py:send():378] send: artifact
+2025-05-18 12:08:16,878 INFO    SenderThread:3610154 [sender.py:send_artifact():1443] sent artifact job-https___github.com_sjwalker13_nd0821-c2-build-model-workflow-exercises.git_EDA.ipynb - {'id': 'QXJ0aWZhY3Q6MTc0NTk1MzE3NA==', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjY0MjMzMzI3OA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTc0NTk1MzE3NA==', 'versionIndex': 4}}}
+2025-05-18 12:08:16,878 DEBUG   SenderThread:3610154 [sender.py:send_request():405] send_request: defer
+2025-05-18 12:08:16,878 INFO    SenderThread:3610154 [sender.py:send_request_defer():609] handle sender defer: 9
+2025-05-18 12:08:16,878 INFO    SenderThread:3610154 [dir_watcher.py:finish():358] shutting down directory watcher
+2025-05-18 12:08:17,195 INFO    SenderThread:3610154 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20250518_120616-nlokxfms/files/wandb-summary.json
+2025-05-18 12:08:17,195 INFO    SenderThread:3610154 [dir_watcher.py:finish():388] scan: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20250518_120616-nlokxfms/files
+2025-05-18 12:08:17,195 INFO    SenderThread:3610154 [dir_watcher.py:finish():402] scan save: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20250518_120616-nlokxfms/files/requirements.txt requirements.txt
+2025-05-18 12:08:17,195 INFO    SenderThread:3610154 [dir_watcher.py:finish():402] scan save: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20250518_120616-nlokxfms/files/wandb-summary.json wandb-summary.json
+2025-05-18 12:08:17,197 INFO    SenderThread:3610154 [dir_watcher.py:finish():402] scan save: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20250518_120616-nlokxfms/files/conda-environment.yaml conda-environment.yaml
+2025-05-18 12:08:17,197 INFO    SenderThread:3610154 [dir_watcher.py:finish():402] scan save: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20250518_120616-nlokxfms/files/config.yaml config.yaml
+2025-05-18 12:08:17,197 INFO    SenderThread:3610154 [dir_watcher.py:finish():402] scan save: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20250518_120616-nlokxfms/files/diff.patch diff.patch
+2025-05-18 12:08:17,197 INFO    SenderThread:3610154 [dir_watcher.py:finish():402] scan save: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20250518_120616-nlokxfms/files/wandb-metadata.json wandb-metadata.json
+2025-05-18 12:08:17,197 INFO    SenderThread:3610154 [sender.py:transition_state():613] send defer: 10
+2025-05-18 12:08:17,198 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: defer
+2025-05-18 12:08:17,198 INFO    HandlerThread:3610154 [handler.py:handle_request_defer():172] handle defer: 10
+2025-05-18 12:08:17,198 DEBUG   SenderThread:3610154 [sender.py:send_request():405] send_request: defer
+2025-05-18 12:08:17,198 INFO    SenderThread:3610154 [sender.py:send_request_defer():609] handle sender defer: 10
+2025-05-18 12:08:17,198 INFO    SenderThread:3610154 [file_pusher.py:finish():172] shutting down file pusher
+2025-05-18 12:08:17,476 INFO    wandb-upload_1:3610154 [upload_job.py:push():131] Uploaded file /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20250518_120616-nlokxfms/files/requirements.txt
+2025-05-18 12:08:17,478 INFO    wandb-upload_0:3610154 [upload_job.py:push():131] Uploaded file /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20250518_120616-nlokxfms/files/wandb-summary.json
+2025-05-18 12:08:17,574 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: poll_exit
+2025-05-18 12:08:17,575 DEBUG   SenderThread:3610154 [sender.py:send_request():405] send_request: poll_exit
+2025-05-18 12:08:17,583 INFO    wandb-upload_3:3610154 [upload_job.py:push():131] Uploaded file /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20250518_120616-nlokxfms/files/config.yaml
+2025-05-18 12:08:17,591 INFO    wandb-upload_2:3610154 [upload_job.py:push():131] Uploaded file /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20250518_120616-nlokxfms/files/conda-environment.yaml
+2025-05-18 12:08:17,792 INFO    Thread-11 (_thread_body):3610154 [sender.py:transition_state():613] send defer: 11
+2025-05-18 12:08:17,793 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: defer
+2025-05-18 12:08:17,793 INFO    HandlerThread:3610154 [handler.py:handle_request_defer():172] handle defer: 11
+2025-05-18 12:08:17,793 DEBUG   SenderThread:3610154 [sender.py:send_request():405] send_request: defer
+2025-05-18 12:08:17,793 INFO    SenderThread:3610154 [sender.py:send_request_defer():609] handle sender defer: 11
+2025-05-18 12:08:17,793 INFO    SenderThread:3610154 [file_pusher.py:join():178] waiting for file pusher
+2025-05-18 12:08:17,794 INFO    SenderThread:3610154 [sender.py:transition_state():613] send defer: 12
+2025-05-18 12:08:17,794 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: defer
+2025-05-18 12:08:17,794 INFO    HandlerThread:3610154 [handler.py:handle_request_defer():172] handle defer: 12
+2025-05-18 12:08:17,794 DEBUG   SenderThread:3610154 [sender.py:send_request():405] send_request: defer
+2025-05-18 12:08:17,794 INFO    SenderThread:3610154 [sender.py:send_request_defer():609] handle sender defer: 12
+2025-05-18 12:08:17,794 INFO    SenderThread:3610154 [file_stream.py:finish():595] file stream finish called
+2025-05-18 12:08:18,035 INFO    SenderThread:3610154 [file_stream.py:finish():599] file stream finish is done
+2025-05-18 12:08:18,035 INFO    SenderThread:3610154 [sender.py:transition_state():613] send defer: 13
+2025-05-18 12:08:18,035 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: defer
+2025-05-18 12:08:18,035 INFO    HandlerThread:3610154 [handler.py:handle_request_defer():172] handle defer: 13
+2025-05-18 12:08:18,036 DEBUG   SenderThread:3610154 [sender.py:send_request():405] send_request: defer
+2025-05-18 12:08:18,036 INFO    SenderThread:3610154 [sender.py:send_request_defer():609] handle sender defer: 13
+2025-05-18 12:08:18,036 INFO    SenderThread:3610154 [sender.py:transition_state():613] send defer: 14
+2025-05-18 12:08:18,036 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: defer
+2025-05-18 12:08:18,036 INFO    HandlerThread:3610154 [handler.py:handle_request_defer():172] handle defer: 14
+2025-05-18 12:08:18,036 DEBUG   SenderThread:3610154 [sender.py:send():378] send: final
+2025-05-18 12:08:18,036 DEBUG   SenderThread:3610154 [sender.py:send():378] send: footer
+2025-05-18 12:08:18,037 DEBUG   SenderThread:3610154 [sender.py:send_request():405] send_request: defer
+2025-05-18 12:08:18,037 INFO    SenderThread:3610154 [sender.py:send_request_defer():609] handle sender defer: 14
+2025-05-18 12:08:18,037 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: poll_exit
+2025-05-18 12:08:18,038 DEBUG   SenderThread:3610154 [sender.py:send_request():405] send_request: poll_exit
+2025-05-18 12:08:18,038 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: poll_exit
+2025-05-18 12:08:18,038 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: server_info
+2025-05-18 12:08:18,038 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: get_summary
+2025-05-18 12:08:18,039 DEBUG   SenderThread:3610154 [sender.py:send_request():405] send_request: poll_exit
+2025-05-18 12:08:18,039 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: sampled_history
+2025-05-18 12:08:18,039 DEBUG   SenderThread:3610154 [sender.py:send_request():405] send_request: server_info
+2025-05-18 12:08:18,039 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: internal_messages
+2025-05-18 12:08:18,041 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: job_info
+2025-05-18 12:08:18,108 DEBUG   SenderThread:3610154 [sender.py:send_request():405] send_request: job_info
+2025-05-18 12:08:18,109 INFO    MainThread:3610154 [wandb_run.py:_footer_history_summary_info():3851] rendering history
+2025-05-18 12:08:18,109 INFO    MainThread:3610154 [wandb_run.py:_footer_history_summary_info():3883] rendering summary
+2025-05-18 12:08:18,109 INFO    MainThread:3610154 [wandb_run.py:_footer_sync_info():3810] logging synced files
+2025-05-18 12:08:18,109 DEBUG   HandlerThread:3610154 [handler.py:handle_request():146] handle_request: shutdown
+2025-05-18 12:08:18,109 INFO    HandlerThread:3610154 [handler.py:finish():869] shutting down handler
+2025-05-18 12:08:19,042 INFO    WriterThread:3610154 [datastore.py:close():296] close: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20250518_120616-nlokxfms/run-nlokxfms.wandb
+2025-05-18 12:08:19,109 INFO    SenderThread:3610154 [sender.py:finish():1521] shutting down sender
+2025-05-18 12:08:19,109 INFO    SenderThread:3610154 [file_pusher.py:finish():172] shutting down file pusher
+2025-05-18 12:08:19,109 INFO    SenderThread:3610154 [file_pusher.py:join():178] waiting for file pusher

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/430f8adae6ec4a8587d188027e3591ce/artifacts
+end_time: 1748278871166
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 430f8adae6ec4a8587d188027e3591ce
+run_name: skittish-cub-722
+run_uuid: 430f8adae6ec4a8587d188027e3591ce
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748278737919
+status: 3
+tags: []
+user_id: sjwalker

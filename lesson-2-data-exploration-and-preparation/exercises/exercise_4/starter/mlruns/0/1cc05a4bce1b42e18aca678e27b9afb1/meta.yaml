@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/1cc05a4bce1b42e18aca678e27b9afb1/artifacts
+end_time: 1747578719737
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1cc05a4bce1b42e18aca678e27b9afb1
+run_name: adorable-horse-318
+run_uuid: 1cc05a4bce1b42e18aca678e27b9afb1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747578717252
+status: 4
+tags: []
+user_id: sjwalker

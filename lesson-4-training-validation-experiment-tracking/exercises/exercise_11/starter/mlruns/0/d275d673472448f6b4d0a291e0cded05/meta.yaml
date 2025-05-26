@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/d275d673472448f6b4d0a291e0cded05/artifacts
+end_time: 1748277568448
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d275d673472448f6b4d0a291e0cded05
+run_name: amusing-bird-526
+run_uuid: d275d673472448f6b4d0a291e0cded05
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748277462394
+status: 3
+tags: []
+user_id: sjwalker

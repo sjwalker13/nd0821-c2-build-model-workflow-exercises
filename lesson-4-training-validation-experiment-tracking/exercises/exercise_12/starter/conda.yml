@@ -4,6 +4,7 @@ channels:
   - defaults
 dependencies:
   - python=3.10
+  - databricks-cli=0.18.0
   - requests=2.31.0
   - pip=23.3.1
   - mlflow=2.8.1

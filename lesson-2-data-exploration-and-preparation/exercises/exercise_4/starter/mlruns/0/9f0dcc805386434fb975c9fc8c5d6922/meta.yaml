@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/9f0dcc805386434fb975c9fc8c5d6922/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9f0dcc805386434fb975c9fc8c5d6922
+run_name: dashing-wasp-198
+run_uuid: 9f0dcc805386434fb975c9fc8c5d6922
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747585548590
+status: 1
+tags: []
+user_id: sjwalker

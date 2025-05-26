@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/2d166d8f274a449e92ad64780b2b1387/artifacts
+end_time: 1748278223723
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2d166d8f274a449e92ad64780b2b1387
+run_name: efficient-ox-551
+run_uuid: 2d166d8f274a449e92ad64780b2b1387
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748278201499
+status: 3
+tags: []
+user_id: sjwalker

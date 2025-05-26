@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/144105854ff04d2db26400d532e94321/artifacts
+end_time: 1748279023475
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 144105854ff04d2db26400d532e94321
+run_name: polite-shark-445
+run_uuid: 144105854ff04d2db26400d532e94321
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748278871431
+status: 3
+tags: []
+user_id: sjwalker

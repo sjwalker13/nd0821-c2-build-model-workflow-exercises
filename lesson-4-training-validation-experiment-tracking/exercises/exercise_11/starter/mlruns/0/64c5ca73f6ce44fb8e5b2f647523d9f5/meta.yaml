@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/64c5ca73f6ce44fb8e5b2f647523d9f5/artifacts
+end_time: 1748278342503
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 64c5ca73f6ce44fb8e5b2f647523d9f5
+run_name: intrigued-fish-769
+run_uuid: 64c5ca73f6ce44fb8e5b2f647523d9f5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748278322193
+status: 3
+tags: []
+user_id: sjwalker

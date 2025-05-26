@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/mlruns/0/38850fc7c537480ca2500baf573359a7/artifacts
+end_time: 1748283657200
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 38850fc7c537480ca2500baf573359a7
+run_name: invincible-hare-225
+run_uuid: 38850fc7c537480ca2500baf573359a7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748283635238
+status: 4
+tags: []
+user_id: sjwalker

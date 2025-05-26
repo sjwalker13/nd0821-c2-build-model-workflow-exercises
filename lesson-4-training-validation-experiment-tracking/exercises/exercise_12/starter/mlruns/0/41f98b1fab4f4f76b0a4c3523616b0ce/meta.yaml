@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/mlruns/0/41f98b1fab4f4f76b0a4c3523616b0ce/artifacts
+end_time: 1748283657417
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 41f98b1fab4f4f76b0a4c3523616b0ce
+run_name: enthused-moose-775
+run_uuid: 41f98b1fab4f4f76b0a4c3523616b0ce
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748283632370
+status: 4
+tags: []
+user_id: sjwalker

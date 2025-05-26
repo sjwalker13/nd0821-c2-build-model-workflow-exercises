@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-3-data-validation/exercises/exercise_9/solution/mlruns/0/5f250ff63dcc4e249c52d085767124d5/artifacts
+end_time: 1748201856226
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5f250ff63dcc4e249c52d085767124d5
+run_name: hilarious-snake-758
+run_uuid: 5f250ff63dcc4e249c52d085767124d5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748201846187
+status: 4
+tags: []
+user_id: sjwalker

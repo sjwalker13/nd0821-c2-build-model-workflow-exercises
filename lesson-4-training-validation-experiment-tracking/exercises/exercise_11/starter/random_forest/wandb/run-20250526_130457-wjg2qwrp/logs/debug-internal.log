@@ -1,0 +1,254 @@
+2025-05-26 13:04:57,579 INFO    StreamThr :274926 [internal.py:wandb_internal():86] W&B internal server running at pid: 274926, started at: 2025-05-26 13:04:57.578729
+2025-05-26 13:04:57,585 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: status
+2025-05-26 13:04:57,586 INFO    WriterThread:274926 [datastore.py:open_for_write():87] open: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20250526_130457-wjg2qwrp/run-wjg2qwrp.wandb
+2025-05-26 13:04:57,587 DEBUG   SenderThread:274926 [sender.py:send():378] send: header
+2025-05-26 13:04:57,587 DEBUG   SenderThread:274926 [sender.py:send():378] send: run
+2025-05-26 13:04:57,897 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: check_version
+2025-05-26 13:04:57,903 INFO    SenderThread:274926 [dir_watcher.py:__init__():211] watching files in: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20250526_130457-wjg2qwrp/files
+2025-05-26 13:04:57,903 INFO    SenderThread:274926 [sender.py:_start_run_threads():1099] run started: wjg2qwrp with start time 1748279097.560592
+2025-05-26 13:04:57,903 DEBUG   SenderThread:274926 [sender.py:send_request():405] send_request: check_version
+2025-05-26 13:04:57,996 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: run_start
+2025-05-26 13:04:57,997 DEBUG   HandlerThread:274926 [system_info.py:__init__():26] System info init
+2025-05-26 13:04:57,997 DEBUG   HandlerThread:274926 [system_info.py:__init__():41] System info init done
+2025-05-26 13:04:57,997 INFO    HandlerThread:274926 [system_monitor.py:start():194] Starting system monitor
+2025-05-26 13:04:57,998 INFO    SystemMonitor:274926 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-05-26 13:04:57,998 INFO    HandlerThread:274926 [system_monitor.py:probe():214] Collecting system info
+2025-05-26 13:04:58,001 DEBUG   HandlerThread:274926 [system_info.py:probe():150] Probing system
+2025-05-26 13:04:58,001 INFO    SystemMonitor:274926 [interfaces.py:start():190] Started cpu monitoring
+2025-05-26 13:04:58,003 INFO    SystemMonitor:274926 [interfaces.py:start():190] Started disk monitoring
+2025-05-26 13:04:58,008 INFO    SystemMonitor:274926 [interfaces.py:start():190] Started memory monitoring
+2025-05-26 13:04:58,010 INFO    SystemMonitor:274926 [interfaces.py:start():190] Started network monitoring
+2025-05-26 13:04:58,028 DEBUG   HandlerThread:274926 [system_info.py:_probe_git():135] Probing git
+2025-05-26 13:04:58,036 DEBUG   HandlerThread:274926 [system_info.py:_probe_git():143] Probing git done
+2025-05-26 13:04:58,036 DEBUG   HandlerThread:274926 [system_info.py:probe():198] Probing system done
+2025-05-26 13:04:58,036 DEBUG   HandlerThread:274926 [system_monitor.py:probe():223] {'os': 'Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.39', 'python': '3.10.17', 'heartbeatAt': '2025-05-26T17:04:58.001501', 'startedAt': '2025-05-26T17:04:57.547809', 'docker': None, 'cuda': None, 'args': ('--train_data', 'exercise_6/data_train.csv:latest', '--model_config', '/home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/multirun/2025-05-26/12-56-34/39/random_forest_config.yml'), 'state': 'running', 'program': '/home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/run.py', 'codePathLocal': 'run.py', 'codePath': 'lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/run.py', 'git': {'remote': 'https://github.com/sjwalker13/nd0821-c2-build-model-workflow-exercises.git', 'commit': '0d72086a9301bf656d4656f49cc342b126b71048'}, 'email': 'you@example.com', 'root': '/home/sjwalker/nd0821-c2-build-model-workflow-exercises-4', 'host': 'LAPTOP-HSA1K6RP', 'username': 'sjwalker', 'executable': '/home/sjwalker/miniconda3/envs/mlflow-f477842b0fd5d80335ab430d5ad673410547aea1/bin/python', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 1689.599, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 1689.599, 'min': 0.0, 'max': 0.0}, {'current': 1689.599, 'min': 0.0, 'max': 0.0}, {'current': 1689.599, 'min': 0.0, 'max': 0.0}, {'current': 1689.599, 'min': 0.0, 'max': 0.0}, {'current': 1689.599, 'min': 0.0, 'max': 0.0}, {'current': 1689.599, 'min': 0.0, 'max': 0.0}, {'current': 1689.599, 'min': 0.0, 'max': 0.0}, {'current': 1689.599, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 1006.853931427002, 'used': 22.86107635498047}}, 'memory': {'total': 5.675804138183594}}
+2025-05-26 13:04:58,036 INFO    HandlerThread:274926 [system_monitor.py:probe():224] Finished collecting system info
+2025-05-26 13:04:58,036 INFO    HandlerThread:274926 [system_monitor.py:probe():227] Publishing system info
+2025-05-26 13:04:58,036 DEBUG   HandlerThread:274926 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2025-05-26 13:04:58,907 INFO    Thread-12 :274926 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20250526_130457-wjg2qwrp/files/conda-environment.yaml
+2025-05-26 13:05:02,566 DEBUG   HandlerThread:274926 [system_info.py:_save_conda():219] Saving conda packages done
+2025-05-26 13:05:02,567 INFO    HandlerThread:274926 [system_monitor.py:probe():229] Finished publishing system info
+2025-05-26 13:05:02,569 DEBUG   SenderThread:274926 [sender.py:send():378] send: files
+2025-05-26 13:05:02,569 INFO    SenderThread:274926 [sender.py:_save_file():1365] saving file wandb-metadata.json with policy now
+2025-05-26 13:05:02,706 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: python_packages
+2025-05-26 13:05:02,707 DEBUG   SenderThread:274926 [sender.py:send_request():405] send_request: python_packages
+2025-05-26 13:05:02,707 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: status_report
+2025-05-26 13:05:02,711 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: stop_status
+2025-05-26 13:05:02,711 DEBUG   SenderThread:274926 [sender.py:send_request():405] send_request: stop_status
+2025-05-26 13:05:02,727 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: internal_messages
+2025-05-26 13:05:02,840 DEBUG   SenderThread:274926 [sender.py:send():378] send: telemetry
+2025-05-26 13:05:02,905 INFO    Thread-12 :274926 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20250526_130457-wjg2qwrp/files/conda-environment.yaml
+2025-05-26 13:05:02,905 INFO    Thread-12 :274926 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20250526_130457-wjg2qwrp/files/requirements.txt
+2025-05-26 13:05:02,906 INFO    Thread-12 :274926 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20250526_130457-wjg2qwrp/files/wandb-metadata.json
+2025-05-26 13:05:02,906 INFO    Thread-12 :274926 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20250526_130457-wjg2qwrp/files/output.log
+2025-05-26 13:05:03,056 INFO    wandb-upload_0:274926 [upload_job.py:push():131] Uploaded file /tmp/tmpfmsae5_zwandb/u9zt75ge-wandb-metadata.json
+2025-05-26 13:05:03,233 DEBUG   SenderThread:274926 [sender.py:send():378] send: use_artifact
+2025-05-26 13:05:03,707 DEBUG   SenderThread:274926 [sender.py:send():378] send: config
+2025-05-26 13:05:04,906 INFO    Thread-12 :274926 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20250526_130457-wjg2qwrp/files/output.log
+2025-05-26 13:05:07,710 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: status_report
+2025-05-26 13:05:12,711 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: status_report
+2025-05-26 13:05:17,711 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: stop_status
+2025-05-26 13:05:17,712 DEBUG   SenderThread:274926 [sender.py:send_request():405] send_request: stop_status
+2025-05-26 13:05:17,714 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: status_report
+2025-05-26 13:05:17,718 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: internal_messages
+2025-05-26 13:05:22,823 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: status_report
+2025-05-26 13:05:27,830 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: status_report
+2025-05-26 13:05:27,915 INFO    Thread-12 :274926 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20250526_130457-wjg2qwrp/files/config.yaml
+2025-05-26 13:05:32,711 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: stop_status
+2025-05-26 13:05:32,712 DEBUG   SenderThread:274926 [sender.py:send_request():405] send_request: stop_status
+2025-05-26 13:05:32,770 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: internal_messages
+2025-05-26 13:05:33,807 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: status_report
+2025-05-26 13:05:38,808 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: status_report
+2025-05-26 13:05:43,810 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: status_report
+2025-05-26 13:05:47,711 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: stop_status
+2025-05-26 13:05:47,712 DEBUG   SenderThread:274926 [sender.py:send_request():405] send_request: stop_status
+2025-05-26 13:05:47,760 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: internal_messages
+2025-05-26 13:05:48,853 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: status_report
+2025-05-26 13:05:53,854 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: status_report
+2025-05-26 13:05:58,011 DEBUG   SystemMonitor:274926 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-05-26 13:05:58,012 DEBUG   SenderThread:274926 [sender.py:send():378] send: stats
+2025-05-26 13:05:59,013 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: status_report
+2025-05-26 13:06:02,712 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: stop_status
+2025-05-26 13:06:02,712 DEBUG   SenderThread:274926 [sender.py:send_request():405] send_request: stop_status
+2025-05-26 13:06:02,760 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: internal_messages
+2025-05-26 13:06:04,872 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: status_report
+2025-05-26 13:06:09,875 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: status_report
+2025-05-26 13:06:14,877 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: status_report
+2025-05-26 13:06:17,712 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: stop_status
+2025-05-26 13:06:17,712 DEBUG   SenderThread:274926 [sender.py:send_request():405] send_request: stop_status
+2025-05-26 13:06:17,760 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: internal_messages
+2025-05-26 13:06:20,870 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: status_report
+2025-05-26 13:06:25,871 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: status_report
+2025-05-26 13:06:28,013 DEBUG   SenderThread:274926 [sender.py:send():378] send: stats
+2025-05-26 13:06:31,014 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: status_report
+2025-05-26 13:06:32,712 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: stop_status
+2025-05-26 13:06:32,712 DEBUG   SenderThread:274926 [sender.py:send_request():405] send_request: stop_status
+2025-05-26 13:06:32,761 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: internal_messages
+2025-05-26 13:06:36,820 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: status_report
+2025-05-26 13:06:41,821 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: status_report
+2025-05-26 13:06:46,822 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: status_report
+2025-05-26 13:06:47,712 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: stop_status
+2025-05-26 13:06:47,713 DEBUG   SenderThread:274926 [sender.py:send_request():405] send_request: stop_status
+2025-05-26 13:06:47,771 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: internal_messages
+2025-05-26 13:06:51,845 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: status_report
+2025-05-26 13:06:55,623 DEBUG   SenderThread:274926 [sender.py:send_request():405] send_request: summary_record
+2025-05-26 13:06:55,624 INFO    SenderThread:274926 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2025-05-26 13:06:55,956 INFO    Thread-12 :274926 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20250526_130457-wjg2qwrp/files/wandb-summary.json
+2025-05-26 13:06:56,760 DEBUG   SenderThread:274926 [sender.py:send():378] send: files
+2025-05-26 13:06:56,760 INFO    SenderThread:274926 [sender.py:_save_file():1365] saving file media/images/feature_importance_0_4e65cd0821098a64deac.png with policy now
+2025-05-26 13:06:56,764 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: partial_history
+2025-05-26 13:06:56,765 DEBUG   SenderThread:274926 [sender.py:send():378] send: files
+2025-05-26 13:06:56,766 INFO    SenderThread:274926 [sender.py:_save_file():1365] saving file media/images/confusion_matrix_0_da25b2aab2f55ed36437.png with policy now
+2025-05-26 13:06:56,766 DEBUG   SenderThread:274926 [sender.py:send():378] send: history
+2025-05-26 13:06:56,766 DEBUG   SenderThread:274926 [sender.py:send_request():405] send_request: summary_record
+2025-05-26 13:06:56,768 INFO    SenderThread:274926 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2025-05-26 13:06:56,768 DEBUG   SenderThread:274926 [sender.py:send():378] send: exit
+2025-05-26 13:06:56,768 INFO    SenderThread:274926 [sender.py:send_exit():585] handling exit code: 0
+2025-05-26 13:06:56,768 INFO    SenderThread:274926 [sender.py:send_exit():587] handling runtime: 118
+2025-05-26 13:06:56,773 INFO    SenderThread:274926 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2025-05-26 13:06:56,773 INFO    SenderThread:274926 [sender.py:send_exit():593] send defer
+2025-05-26 13:06:56,773 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: defer
+2025-05-26 13:06:56,773 INFO    HandlerThread:274926 [handler.py:handle_request_defer():172] handle defer: 0
+2025-05-26 13:06:56,773 DEBUG   SenderThread:274926 [sender.py:send_request():405] send_request: defer
+2025-05-26 13:06:56,773 INFO    SenderThread:274926 [sender.py:send_request_defer():609] handle sender defer: 0
+2025-05-26 13:06:56,774 INFO    SenderThread:274926 [sender.py:transition_state():613] send defer: 1
+2025-05-26 13:06:56,774 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: defer
+2025-05-26 13:06:56,774 INFO    HandlerThread:274926 [handler.py:handle_request_defer():172] handle defer: 1
+2025-05-26 13:06:56,774 DEBUG   SenderThread:274926 [sender.py:send_request():405] send_request: defer
+2025-05-26 13:06:56,774 INFO    SenderThread:274926 [sender.py:send_request_defer():609] handle sender defer: 1
+2025-05-26 13:06:56,774 INFO    SenderThread:274926 [sender.py:transition_state():613] send defer: 2
+2025-05-26 13:06:56,774 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: defer
+2025-05-26 13:06:56,774 INFO    HandlerThread:274926 [handler.py:handle_request_defer():172] handle defer: 2
+2025-05-26 13:06:56,774 INFO    HandlerThread:274926 [system_monitor.py:finish():203] Stopping system monitor
+2025-05-26 13:06:56,774 DEBUG   SystemMonitor:274926 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-05-26 13:06:56,775 DEBUG   SystemMonitor:274926 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-05-26 13:06:56,775 INFO    HandlerThread:274926 [interfaces.py:finish():202] Joined cpu monitor
+2025-05-26 13:06:56,776 INFO    HandlerThread:274926 [interfaces.py:finish():202] Joined disk monitor
+2025-05-26 13:06:56,776 INFO    HandlerThread:274926 [interfaces.py:finish():202] Joined memory monitor
+2025-05-26 13:06:56,776 INFO    HandlerThread:274926 [interfaces.py:finish():202] Joined network monitor
+2025-05-26 13:06:56,776 DEBUG   SenderThread:274926 [sender.py:send_request():405] send_request: defer
+2025-05-26 13:06:56,776 INFO    SenderThread:274926 [sender.py:send_request_defer():609] handle sender defer: 2
+2025-05-26 13:06:56,776 INFO    SenderThread:274926 [sender.py:transition_state():613] send defer: 3
+2025-05-26 13:06:56,777 DEBUG   SenderThread:274926 [sender.py:send():378] send: stats
+2025-05-26 13:06:56,777 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: defer
+2025-05-26 13:06:56,777 INFO    HandlerThread:274926 [handler.py:handle_request_defer():172] handle defer: 3
+2025-05-26 13:06:56,777 DEBUG   SenderThread:274926 [sender.py:send_request():405] send_request: defer
+2025-05-26 13:06:56,777 INFO    SenderThread:274926 [sender.py:send_request_defer():609] handle sender defer: 3
+2025-05-26 13:06:56,777 INFO    SenderThread:274926 [sender.py:transition_state():613] send defer: 4
+2025-05-26 13:06:56,778 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: defer
+2025-05-26 13:06:56,778 INFO    HandlerThread:274926 [handler.py:handle_request_defer():172] handle defer: 4
+2025-05-26 13:06:56,778 DEBUG   SenderThread:274926 [sender.py:send_request():405] send_request: defer
+2025-05-26 13:06:56,778 INFO    SenderThread:274926 [sender.py:send_request_defer():609] handle sender defer: 4
+2025-05-26 13:06:56,778 INFO    SenderThread:274926 [sender.py:transition_state():613] send defer: 5
+2025-05-26 13:06:56,778 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: defer
+2025-05-26 13:06:56,778 INFO    HandlerThread:274926 [handler.py:handle_request_defer():172] handle defer: 5
+2025-05-26 13:06:56,778 DEBUG   SenderThread:274926 [sender.py:send():378] send: summary
+2025-05-26 13:06:56,779 INFO    SenderThread:274926 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2025-05-26 13:06:56,779 DEBUG   SenderThread:274926 [sender.py:send_request():405] send_request: defer
+2025-05-26 13:06:56,779 INFO    SenderThread:274926 [sender.py:send_request_defer():609] handle sender defer: 5
+2025-05-26 13:06:56,779 INFO    SenderThread:274926 [sender.py:transition_state():613] send defer: 6
+2025-05-26 13:06:56,779 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: defer
+2025-05-26 13:06:56,779 INFO    HandlerThread:274926 [handler.py:handle_request_defer():172] handle defer: 6
+2025-05-26 13:06:56,779 DEBUG   SenderThread:274926 [sender.py:send_request():405] send_request: defer
+2025-05-26 13:06:56,779 INFO    SenderThread:274926 [sender.py:send_request_defer():609] handle sender defer: 6
+2025-05-26 13:06:56,780 INFO    SenderThread:274926 [sender.py:transition_state():613] send defer: 7
+2025-05-26 13:06:56,780 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: status_report
+2025-05-26 13:06:56,780 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: defer
+2025-05-26 13:06:56,780 INFO    HandlerThread:274926 [handler.py:handle_request_defer():172] handle defer: 7
+2025-05-26 13:06:56,780 DEBUG   SenderThread:274926 [sender.py:send_request():405] send_request: defer
+2025-05-26 13:06:56,780 INFO    SenderThread:274926 [sender.py:send_request_defer():609] handle sender defer: 7
+2025-05-26 13:06:56,956 INFO    Thread-12 :274926 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20250526_130457-wjg2qwrp/files/wandb-summary.json
+2025-05-26 13:06:56,956 INFO    Thread-12 :274926 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20250526_130457-wjg2qwrp/files/media/images/confusion_matrix_0_da25b2aab2f55ed36437.png
+2025-05-26 13:06:56,957 INFO    Thread-12 :274926 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20250526_130457-wjg2qwrp/files/media/images/feature_importance_0_4e65cd0821098a64deac.png
+2025-05-26 13:06:56,957 INFO    Thread-12 :274926 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20250526_130457-wjg2qwrp/files/media
+2025-05-26 13:06:56,957 INFO    Thread-12 :274926 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20250526_130457-wjg2qwrp/files/media/images
+2025-05-26 13:06:56,993 INFO    SenderThread:274926 [sender.py:transition_state():613] send defer: 8
+2025-05-26 13:06:56,994 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: defer
+2025-05-26 13:06:56,994 INFO    HandlerThread:274926 [handler.py:handle_request_defer():172] handle defer: 8
+2025-05-26 13:06:56,994 DEBUG   SenderThread:274926 [sender.py:send_request():405] send_request: defer
+2025-05-26 13:06:56,994 INFO    SenderThread:274926 [sender.py:send_request_defer():609] handle sender defer: 8
+2025-05-26 13:06:56,994 INFO    SenderThread:274926 [job_builder.py:build():298] Attempting to build job artifact
+2025-05-26 13:06:56,994 INFO    SenderThread:274926 [job_builder.py:_get_source_type():428] is repo sourced job
+2025-05-26 13:06:57,015 INFO    SenderThread:274926 [job_builder.py:build():404] adding wandb-job metadata file
+2025-05-26 13:06:57,025 INFO    SenderThread:274926 [sender.py:transition_state():613] send defer: 9
+2025-05-26 13:06:57,026 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: defer
+2025-05-26 13:06:57,026 INFO    HandlerThread:274926 [handler.py:handle_request_defer():172] handle defer: 9
+2025-05-26 13:06:57,026 DEBUG   SenderThread:274926 [sender.py:send():378] send: artifact
+2025-05-26 13:06:57,045 INFO    wandb-upload_0:274926 [upload_job.py:push():131] Uploaded file /tmp/tmpfmsae5_zwandb/i0boqlgi-media/images/feature_importance_0_4e65cd0821098a64deac.png
+2025-05-26 13:06:57,197 INFO    wandb-upload_1:274926 [upload_job.py:push():131] Uploaded file /tmp/tmpfmsae5_zwandb/g5nu1a9z-media/images/confusion_matrix_0_da25b2aab2f55ed36437.png
+2025-05-26 13:06:57,406 INFO    SenderThread:274926 [sender.py:send_artifact():1443] sent artifact job-https___github.com_sjwalker13_nd0821-c2-build-model-workflo..ent-tracking_exercises_exercise_11_starter_random_forest_run.py - {'id': 'QXJ0aWZhY3Q6MTc2NTA1NDg3MQ==', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjY0NDc3MzQwMA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTc2NTA3MDEyOA==', 'versionIndex': 1}}}
+2025-05-26 13:06:57,406 DEBUG   SenderThread:274926 [sender.py:send_request():405] send_request: defer
+2025-05-26 13:06:57,406 INFO    SenderThread:274926 [sender.py:send_request_defer():609] handle sender defer: 9
+2025-05-26 13:06:57,406 INFO    SenderThread:274926 [dir_watcher.py:finish():358] shutting down directory watcher
+2025-05-26 13:06:57,536 INFO    wandb-upload_0:274926 [upload_job.py:push():131] Uploaded file /tmp/tmpfmsae5_zwandb/yfmt0m98-media/images/feature_importance_0_4e65cd0821098a64deac.png
+2025-05-26 13:06:57,767 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: poll_exit
+2025-05-26 13:06:57,900 INFO    wandb-upload_1:274926 [upload_job.py:push():131] Uploaded file /tmp/tmpfmsae5_zwandb/1h7vj1t9-media/images/confusion_matrix_0_da25b2aab2f55ed36437.png
+2025-05-26 13:06:57,957 INFO    Thread-12 :274926 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20250526_130457-wjg2qwrp/files/output.log
+2025-05-26 13:06:57,957 INFO    SenderThread:274926 [dir_watcher.py:finish():388] scan: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20250526_130457-wjg2qwrp/files
+2025-05-26 13:06:57,957 INFO    SenderThread:274926 [dir_watcher.py:finish():402] scan save: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20250526_130457-wjg2qwrp/files/requirements.txt requirements.txt
+2025-05-26 13:06:57,958 INFO    SenderThread:274926 [dir_watcher.py:finish():402] scan save: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20250526_130457-wjg2qwrp/files/wandb-summary.json wandb-summary.json
+2025-05-26 13:06:57,958 INFO    SenderThread:274926 [dir_watcher.py:finish():402] scan save: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20250526_130457-wjg2qwrp/files/output.log output.log
+2025-05-26 13:06:57,962 INFO    SenderThread:274926 [dir_watcher.py:finish():402] scan save: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20250526_130457-wjg2qwrp/files/conda-environment.yaml conda-environment.yaml
+2025-05-26 13:06:57,962 INFO    SenderThread:274926 [dir_watcher.py:finish():402] scan save: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20250526_130457-wjg2qwrp/files/config.yaml config.yaml
+2025-05-26 13:06:57,962 INFO    SenderThread:274926 [dir_watcher.py:finish():402] scan save: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20250526_130457-wjg2qwrp/files/wandb-metadata.json wandb-metadata.json
+2025-05-26 13:06:57,962 INFO    SenderThread:274926 [dir_watcher.py:finish():402] scan save: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20250526_130457-wjg2qwrp/files/media/images/confusion_matrix_0_da25b2aab2f55ed36437.png media/images/confusion_matrix_0_da25b2aab2f55ed36437.png
+2025-05-26 13:06:57,962 INFO    SenderThread:274926 [dir_watcher.py:finish():402] scan save: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20250526_130457-wjg2qwrp/files/media/images/feature_importance_0_4e65cd0821098a64deac.png media/images/feature_importance_0_4e65cd0821098a64deac.png
+2025-05-26 13:06:57,962 INFO    SenderThread:274926 [sender.py:transition_state():613] send defer: 10
+2025-05-26 13:06:57,963 DEBUG   SenderThread:274926 [sender.py:send_request():405] send_request: poll_exit
+2025-05-26 13:06:57,963 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: defer
+2025-05-26 13:06:57,965 INFO    HandlerThread:274926 [handler.py:handle_request_defer():172] handle defer: 10
+2025-05-26 13:06:57,968 DEBUG   SenderThread:274926 [sender.py:send_request():405] send_request: defer
+2025-05-26 13:06:57,968 INFO    SenderThread:274926 [sender.py:send_request_defer():609] handle sender defer: 10
+2025-05-26 13:06:57,968 INFO    SenderThread:274926 [file_pusher.py:finish():172] shutting down file pusher
+2025-05-26 13:06:58,235 INFO    wandb-upload_1:274926 [upload_job.py:push():131] Uploaded file /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20250526_130457-wjg2qwrp/files/wandb-summary.json
+2025-05-26 13:06:58,240 INFO    wandb-upload_0:274926 [upload_job.py:push():131] Uploaded file /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20250526_130457-wjg2qwrp/files/requirements.txt
+2025-05-26 13:06:58,294 INFO    wandb-upload_2:274926 [upload_job.py:push():131] Uploaded file /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20250526_130457-wjg2qwrp/files/output.log
+2025-05-26 13:06:58,348 INFO    wandb-upload_4:274926 [upload_job.py:push():131] Uploaded file /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20250526_130457-wjg2qwrp/files/config.yaml
+2025-05-26 13:06:58,358 INFO    wandb-upload_3:274926 [upload_job.py:push():131] Uploaded file /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20250526_130457-wjg2qwrp/files/conda-environment.yaml
+2025-05-26 13:06:58,559 INFO    Thread-11 (_thread_body):274926 [sender.py:transition_state():613] send defer: 11
+2025-05-26 13:06:58,559 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: defer
+2025-05-26 13:06:58,559 INFO    HandlerThread:274926 [handler.py:handle_request_defer():172] handle defer: 11
+2025-05-26 13:06:58,560 DEBUG   SenderThread:274926 [sender.py:send_request():405] send_request: defer
+2025-05-26 13:06:58,560 INFO    SenderThread:274926 [sender.py:send_request_defer():609] handle sender defer: 11
+2025-05-26 13:06:58,560 INFO    SenderThread:274926 [file_pusher.py:join():178] waiting for file pusher
+2025-05-26 13:06:58,561 INFO    SenderThread:274926 [sender.py:transition_state():613] send defer: 12
+2025-05-26 13:06:58,561 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: defer
+2025-05-26 13:06:58,561 INFO    HandlerThread:274926 [handler.py:handle_request_defer():172] handle defer: 12
+2025-05-26 13:06:58,561 DEBUG   SenderThread:274926 [sender.py:send_request():405] send_request: defer
+2025-05-26 13:06:58,561 INFO    SenderThread:274926 [sender.py:send_request_defer():609] handle sender defer: 12
+2025-05-26 13:06:58,561 INFO    SenderThread:274926 [file_stream.py:finish():595] file stream finish called
+2025-05-26 13:06:58,768 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: poll_exit
+2025-05-26 13:06:58,860 INFO    SenderThread:274926 [file_stream.py:finish():599] file stream finish is done
+2025-05-26 13:06:58,860 INFO    SenderThread:274926 [sender.py:transition_state():613] send defer: 13
+2025-05-26 13:06:58,860 DEBUG   SenderThread:274926 [sender.py:send_request():405] send_request: poll_exit
+2025-05-26 13:06:58,860 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: defer
+2025-05-26 13:06:58,860 INFO    HandlerThread:274926 [handler.py:handle_request_defer():172] handle defer: 13
+2025-05-26 13:06:58,861 DEBUG   SenderThread:274926 [sender.py:send_request():405] send_request: defer
+2025-05-26 13:06:58,861 INFO    SenderThread:274926 [sender.py:send_request_defer():609] handle sender defer: 13
+2025-05-26 13:06:58,861 INFO    SenderThread:274926 [sender.py:transition_state():613] send defer: 14
+2025-05-26 13:06:58,861 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: defer
+2025-05-26 13:06:58,861 INFO    HandlerThread:274926 [handler.py:handle_request_defer():172] handle defer: 14
+2025-05-26 13:06:58,862 DEBUG   SenderThread:274926 [sender.py:send():378] send: final
+2025-05-26 13:06:58,862 DEBUG   SenderThread:274926 [sender.py:send():378] send: footer
+2025-05-26 13:06:58,862 DEBUG   SenderThread:274926 [sender.py:send_request():405] send_request: defer
+2025-05-26 13:06:58,862 INFO    SenderThread:274926 [sender.py:send_request_defer():609] handle sender defer: 14
+2025-05-26 13:06:58,862 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: poll_exit
+2025-05-26 13:06:58,862 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: poll_exit
+2025-05-26 13:06:58,863 DEBUG   SenderThread:274926 [sender.py:send_request():405] send_request: poll_exit
+2025-05-26 13:06:58,864 DEBUG   SenderThread:274926 [sender.py:send_request():405] send_request: poll_exit
+2025-05-26 13:06:58,864 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: server_info
+2025-05-26 13:06:58,864 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: get_summary
+2025-05-26 13:06:58,864 DEBUG   SenderThread:274926 [sender.py:send_request():405] send_request: server_info
+2025-05-26 13:06:58,864 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: sampled_history
+2025-05-26 13:06:58,866 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: internal_messages
+2025-05-26 13:06:58,867 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: job_info
+2025-05-26 13:06:58,922 DEBUG   SenderThread:274926 [sender.py:send_request():405] send_request: job_info
+2025-05-26 13:06:58,923 INFO    MainThread:274926 [wandb_run.py:_footer_history_summary_info():3851] rendering history
+2025-05-26 13:06:58,923 INFO    MainThread:274926 [wandb_run.py:_footer_history_summary_info():3883] rendering summary
+2025-05-26 13:06:58,923 INFO    MainThread:274926 [wandb_run.py:_footer_sync_info():3810] logging synced files
+2025-05-26 13:06:58,924 DEBUG   HandlerThread:274926 [handler.py:handle_request():146] handle_request: shutdown
+2025-05-26 13:06:58,924 INFO    HandlerThread:274926 [handler.py:finish():869] shutting down handler
+2025-05-26 13:06:59,867 INFO    WriterThread:274926 [datastore.py:close():296] close: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20250526_130457-wjg2qwrp/run-wjg2qwrp.wandb
+2025-05-26 13:06:59,923 INFO    SenderThread:274926 [sender.py:finish():1521] shutting down sender
+2025-05-26 13:06:59,923 INFO    SenderThread:274926 [file_pusher.py:finish():172] shutting down file pusher
+2025-05-26 13:06:59,923 INFO    SenderThread:274926 [file_pusher.py:join():178] waiting for file pusher

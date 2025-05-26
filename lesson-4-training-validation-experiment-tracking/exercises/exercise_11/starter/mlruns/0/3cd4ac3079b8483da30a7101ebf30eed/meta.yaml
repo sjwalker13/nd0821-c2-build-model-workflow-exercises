@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/3cd4ac3079b8483da30a7101ebf30eed/artifacts
+end_time: 1748279199895
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3cd4ac3079b8483da30a7101ebf30eed
+run_name: fortunate-bug-758
+run_uuid: 3cd4ac3079b8483da30a7101ebf30eed
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748279058153
+status: 3
+tags: []
+user_id: sjwalker

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-3-data-validation/exercises/exercise_8/starter/mlruns/0/e355a92825d2461285a2e887a87d1b10/artifacts
+end_time: 1748200564436
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e355a92825d2461285a2e887a87d1b10
+run_name: suave-skink-317
+run_uuid: e355a92825d2461285a2e887a87d1b10
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748200555193
+status: 4
+tags: []
+user_id: sjwalker

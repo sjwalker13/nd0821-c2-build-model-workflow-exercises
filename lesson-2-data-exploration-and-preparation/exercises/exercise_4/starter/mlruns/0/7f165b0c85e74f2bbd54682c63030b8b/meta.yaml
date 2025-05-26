@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/7f165b0c85e74f2bbd54682c63030b8b/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7f165b0c85e74f2bbd54682c63030b8b
+run_name: languid-shrike-987
+run_uuid: 7f165b0c85e74f2bbd54682c63030b8b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747584737116
+status: 1
+tags: []
+user_id: sjwalker

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/65362479358640a990d562e1df0454bd/artifacts
+end_time: 1748279250279
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 65362479358640a990d562e1df0454bd
+run_name: upset-loon-154
+run_uuid: 65362479358640a990d562e1df0454bd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748279136160
+status: 3
+tags: []
+user_id: sjwalker

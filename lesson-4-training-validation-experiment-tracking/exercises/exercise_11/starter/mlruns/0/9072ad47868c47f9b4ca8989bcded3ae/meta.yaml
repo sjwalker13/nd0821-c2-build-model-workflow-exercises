@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/9072ad47868c47f9b4ca8989bcded3ae/artifacts
+end_time: 1748279155560
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9072ad47868c47f9b4ca8989bcded3ae
+run_name: skittish-carp-624
+run_uuid: 9072ad47868c47f9b4ca8989bcded3ae
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748279012119
+status: 3
+tags: []
+user_id: sjwalker

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/91e6251837e1492c977a9ce16550f653/artifacts
+end_time: 1748278644894
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 91e6251837e1492c977a9ce16550f653
+run_name: mysterious-eel-734
+run_uuid: 91e6251837e1492c977a9ce16550f653
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748278598647
+status: 3
+tags: []
+user_id: sjwalker

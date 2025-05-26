@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/a18dda5f4dff40ccb0bb495c9bfc7c28/artifacts
+end_time: 1748277955440
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a18dda5f4dff40ccb0bb495c9bfc7c28
+run_name: magnificent-gull-727
+run_uuid: a18dda5f4dff40ccb0bb495c9bfc7c28
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748277936096
+status: 3
+tags: []
+user_id: sjwalker

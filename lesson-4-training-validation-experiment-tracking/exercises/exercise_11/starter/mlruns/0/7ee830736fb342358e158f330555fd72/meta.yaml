@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/7ee830736fb342358e158f330555fd72/artifacts
+end_time: 1748279073942
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7ee830736fb342358e158f330555fd72
+run_name: fun-dolphin-122
+run_uuid: 7ee830736fb342358e158f330555fd72
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748278924255
+status: 3
+tags: []
+user_id: sjwalker

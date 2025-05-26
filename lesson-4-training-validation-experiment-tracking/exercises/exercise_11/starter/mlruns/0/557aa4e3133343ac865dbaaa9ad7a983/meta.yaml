@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/557aa4e3133343ac865dbaaa9ad7a983/artifacts
+end_time: 1748279261983
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 557aa4e3133343ac865dbaaa9ad7a983
+run_name: righteous-wren-404
+run_uuid: 557aa4e3133343ac865dbaaa9ad7a983
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748278592241
+status: 3
+tags: []
+user_id: sjwalker

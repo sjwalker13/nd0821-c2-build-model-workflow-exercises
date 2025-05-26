@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/2afc0f64cff649b3b70b4e5c486c4564/artifacts
+end_time: 1748278936107
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2afc0f64cff649b3b70b4e5c486c4564
+run_name: illustrious-ram-645
+run_uuid: 2afc0f64cff649b3b70b4e5c486c4564
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748278785150
+status: 3
+tags: []
+user_id: sjwalker

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/379ced86880e4748a9df196d5e74aef7/artifacts
+end_time: 1748278985610
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 379ced86880e4748a9df196d5e74aef7
+run_name: serious-lamb-182
+run_uuid: 379ced86880e4748a9df196d5e74aef7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748278831909
+status: 3
+tags: []
+user_id: sjwalker

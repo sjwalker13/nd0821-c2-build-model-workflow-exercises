@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-3-data-validation/exercises/exercise_8/starter/mlruns/0/f8a858f24d794092b5ea08f1b2cbe4e3/artifacts
+end_time: 1748200384025
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f8a858f24d794092b5ea08f1b2cbe4e3
+run_name: traveling-sheep-716
+run_uuid: f8a858f24d794092b5ea08f1b2cbe4e3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748200373775
+status: 4
+tags: []
+user_id: sjwalker

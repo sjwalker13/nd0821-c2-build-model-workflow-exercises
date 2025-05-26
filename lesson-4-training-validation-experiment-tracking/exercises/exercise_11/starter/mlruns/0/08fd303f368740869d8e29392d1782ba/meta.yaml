@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/08fd303f368740869d8e29392d1782ba/artifacts
+end_time: 1748277568315
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 08fd303f368740869d8e29392d1782ba
+run_name: enthused-gnu-463
+run_uuid: 08fd303f368740869d8e29392d1782ba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748277500227
+status: 3
+tags: []
+user_id: sjwalker

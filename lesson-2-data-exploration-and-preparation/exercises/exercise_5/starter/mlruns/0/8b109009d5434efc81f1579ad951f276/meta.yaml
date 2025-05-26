@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/mlruns/0/8b109009d5434efc81f1579ad951f276/artifacts
+end_time: 1747592336117
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8b109009d5434efc81f1579ad951f276
+run_name: luxuriant-trout-731
+run_uuid: 8b109009d5434efc81f1579ad951f276
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747592321911
+status: 4
+tags: []
+user_id: sjwalker

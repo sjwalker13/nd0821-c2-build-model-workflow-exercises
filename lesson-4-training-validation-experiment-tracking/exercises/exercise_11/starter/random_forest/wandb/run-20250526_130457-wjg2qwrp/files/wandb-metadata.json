@@ -1,0 +1,85 @@
+{
+    "os": "Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.10.17",
+    "heartbeatAt": "2025-05-26T17:04:58.001501",
+    "startedAt": "2025-05-26T17:04:57.547809",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--train_data",
+        "exercise_6/data_train.csv:latest",
+        "--model_config",
+        "/home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/multirun/2025-05-26/12-56-34/39/random_forest_config.yml"
+    ],
+    "state": "running",
+    "program": "/home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/run.py",
+    "codePathLocal": "run.py",
+    "codePath": "lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/run.py",
+    "git": {
+        "remote": "https://github.com/sjwalker13/nd0821-c2-build-model-workflow-exercises.git",
+        "commit": "0d72086a9301bf656d4656f49cc342b126b71048"
+    },
+    "email": "you@example.com",
+    "root": "/home/sjwalker/nd0821-c2-build-model-workflow-exercises-4",
+    "host": "LAPTOP-HSA1K6RP",
+    "username": "sjwalker",
+    "executable": "/home/sjwalker/miniconda3/envs/mlflow-f477842b0fd5d80335ab430d5ad673410547aea1/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1689.599,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1689.599,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1689.599,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1689.599,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1689.599,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1689.599,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1689.599,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1689.599,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1689.599,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1006.853931427002,
+            "used": 22.86107635498047
+        }
+    },
+    "memory": {
+        "total": 5.675804138183594
+    }
+}

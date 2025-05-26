@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-3-data-validation/exercises/exercise_8/starter/mlruns/0/b11c6f0ed71f4d60a8fad33b29c38336/artifacts
+end_time: 1748200104836
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b11c6f0ed71f4d60a8fad33b29c38336
+run_name: stately-lynx-204
+run_uuid: b11c6f0ed71f4d60a8fad33b29c38336
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748200094227
+status: 4
+tags: []
+user_id: sjwalker

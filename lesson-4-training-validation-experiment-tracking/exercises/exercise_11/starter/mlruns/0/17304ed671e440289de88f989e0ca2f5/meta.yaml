@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/17304ed671e440289de88f989e0ca2f5/artifacts
+end_time: 1748278322057
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 17304ed671e440289de88f989e0ca2f5
+run_name: nimble-donkey-609
+run_uuid: 17304ed671e440289de88f989e0ca2f5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748278304364
+status: 3
+tags: []
+user_id: sjwalker

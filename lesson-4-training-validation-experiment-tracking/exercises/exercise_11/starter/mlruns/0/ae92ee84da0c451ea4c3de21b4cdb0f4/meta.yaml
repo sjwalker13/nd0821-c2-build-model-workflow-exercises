@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/ae92ee84da0c451ea4c3de21b4cdb0f4/artifacts
+end_time: 1748278652809
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ae92ee84da0c451ea4c3de21b4cdb0f4
+run_name: monumental-flea-626
+run_uuid: ae92ee84da0c451ea4c3de21b4cdb0f4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748278598764
+status: 3
+tags: []
+user_id: sjwalker

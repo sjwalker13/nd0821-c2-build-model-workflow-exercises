@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/demo/hydra_sweeps/mlruns/0/c96b540cd75745c3a1cf667e573c925e/artifacts
+end_time: 1748275818714
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c96b540cd75745c3a1cf667e573c925e
+run_name: colorful-loon-113
+run_uuid: c96b540cd75745c3a1cf667e573c925e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748275816965
+status: 4
+tags: []
+user_id: sjwalker

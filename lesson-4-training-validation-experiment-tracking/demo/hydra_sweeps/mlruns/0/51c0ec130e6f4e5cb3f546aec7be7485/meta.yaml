@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/demo/hydra_sweeps/mlruns/0/51c0ec130e6f4e5cb3f546aec7be7485/artifacts
+end_time: 1748275584330
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 51c0ec130e6f4e5cb3f546aec7be7485
+run_name: fun-shrike-244
+run_uuid: 51c0ec130e6f4e5cb3f546aec7be7485
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748275582589
+status: 4
+tags: []
+user_id: sjwalker

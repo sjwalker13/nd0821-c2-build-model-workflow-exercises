@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/990b8c6fc95b41b7a268032d78960d35/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 990b8c6fc95b41b7a268032d78960d35
+run_name: honorable-fish-549
+run_uuid: 990b8c6fc95b41b7a268032d78960d35
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747583352227
+status: 1
+tags: []
+user_id: sjwalker

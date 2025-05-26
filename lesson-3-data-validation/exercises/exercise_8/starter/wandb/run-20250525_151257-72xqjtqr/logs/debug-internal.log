@@ -1,0 +1,180 @@
+2025-05-25 15:12:57,499 INFO    StreamThr :16537 [internal.py:wandb_internal():86] W&B internal server running at pid: 16537, started at: 2025-05-25 15:12:57.498896
+2025-05-25 15:12:57,501 DEBUG   HandlerThread:16537 [handler.py:handle_request():146] handle_request: status
+2025-05-25 15:12:57,503 INFO    WriterThread:16537 [datastore.py:open_for_write():87] open: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-3-data-validation/exercises/exercise_8/starter/wandb/run-20250525_151257-72xqjtqr/run-72xqjtqr.wandb
+2025-05-25 15:12:57,504 DEBUG   SenderThread:16537 [sender.py:send():378] send: header
+2025-05-25 15:12:57,504 DEBUG   SenderThread:16537 [sender.py:send():378] send: run
+2025-05-25 15:12:57,729 INFO    SenderThread:16537 [dir_watcher.py:__init__():211] watching files in: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-3-data-validation/exercises/exercise_8/starter/wandb/run-20250525_151257-72xqjtqr/files
+2025-05-25 15:12:57,729 INFO    SenderThread:16537 [sender.py:_start_run_threads():1099] run started: 72xqjtqr with start time 1748200377.498251
+2025-05-25 15:12:57,734 DEBUG   HandlerThread:16537 [handler.py:handle_request():146] handle_request: check_version
+2025-05-25 15:12:57,734 DEBUG   SenderThread:16537 [sender.py:send_request():405] send_request: check_version
+2025-05-25 15:12:57,806 DEBUG   HandlerThread:16537 [handler.py:handle_request():146] handle_request: run_start
+2025-05-25 15:12:57,807 DEBUG   HandlerThread:16537 [system_info.py:__init__():26] System info init
+2025-05-25 15:12:57,807 DEBUG   HandlerThread:16537 [system_info.py:__init__():41] System info init done
+2025-05-25 15:12:57,807 INFO    HandlerThread:16537 [system_monitor.py:start():194] Starting system monitor
+2025-05-25 15:12:57,807 INFO    SystemMonitor:16537 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-05-25 15:12:57,807 INFO    HandlerThread:16537 [system_monitor.py:probe():214] Collecting system info
+2025-05-25 15:12:57,808 INFO    SystemMonitor:16537 [interfaces.py:start():190] Started cpu monitoring
+2025-05-25 15:12:57,810 INFO    SystemMonitor:16537 [interfaces.py:start():190] Started disk monitoring
+2025-05-25 15:12:57,811 INFO    SystemMonitor:16537 [interfaces.py:start():190] Started memory monitoring
+2025-05-25 15:12:57,812 INFO    SystemMonitor:16537 [interfaces.py:start():190] Started network monitoring
+2025-05-25 15:12:57,817 DEBUG   HandlerThread:16537 [system_info.py:probe():150] Probing system
+2025-05-25 15:12:57,833 DEBUG   HandlerThread:16537 [system_info.py:_probe_git():135] Probing git
+2025-05-25 15:12:57,837 DEBUG   HandlerThread:16537 [system_info.py:_probe_git():143] Probing git done
+2025-05-25 15:12:57,837 DEBUG   HandlerThread:16537 [system_info.py:probe():198] Probing system done
+2025-05-25 15:12:57,837 DEBUG   HandlerThread:16537 [system_monitor.py:probe():223] {'os': 'Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.39', 'python': '3.12.10', 'heartbeatAt': '2025-05-25T19:12:57.817540', 'startedAt': '2025-05-25T19:12:57.490456', 'docker': None, 'cuda': None, 'args': ('-s', '-vv', '.'), 'state': 'running', 'program': '/home/sjwalker/miniconda3/envs/mlflow-60000e2b97642ccc38c7a9ee503977f0abd54819/bin/pytest', 'codePathLocal': None, 'git': {'remote': 'https://github.com/sjwalker13/nd0821-c2-build-model-workflow-exercises.git', 'commit': '0d72086a9301bf656d4656f49cc342b126b71048'}, 'email': 'you@example.com', 'root': '/home/sjwalker/nd0821-c2-build-model-workflow-exercises-4', 'host': 'LAPTOP-HSA1K6RP', 'username': 'sjwalker', 'executable': '/home/sjwalker/miniconda3/envs/mlflow-60000e2b97642ccc38c7a9ee503977f0abd54819/bin/python3.12', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 1689.599, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 1689.599, 'min': 0.0, 'max': 0.0}, {'current': 1689.599, 'min': 0.0, 'max': 0.0}, {'current': 1689.599, 'min': 0.0, 'max': 0.0}, {'current': 1689.599, 'min': 0.0, 'max': 0.0}, {'current': 1689.599, 'min': 0.0, 'max': 0.0}, {'current': 1689.599, 'min': 0.0, 'max': 0.0}, {'current': 1689.599, 'min': 0.0, 'max': 0.0}, {'current': 1689.599, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 1006.853931427002, 'used': 18.913253784179688}}, 'memory': {'total': 5.675804138183594}}
+2025-05-25 15:12:57,837 INFO    HandlerThread:16537 [system_monitor.py:probe():224] Finished collecting system info
+2025-05-25 15:12:57,837 INFO    HandlerThread:16537 [system_monitor.py:probe():227] Publishing system info
+2025-05-25 15:12:57,837 DEBUG   HandlerThread:16537 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2025-05-25 15:12:58,503 DEBUG   HandlerThread:16537 [system_info.py:_save_conda():219] Saving conda packages done
+2025-05-25 15:12:58,503 INFO    HandlerThread:16537 [system_monitor.py:probe():229] Finished publishing system info
+2025-05-25 15:12:58,506 DEBUG   SenderThread:16537 [sender.py:send():378] send: files
+2025-05-25 15:12:58,507 INFO    SenderThread:16537 [sender.py:_save_file():1365] saving file wandb-metadata.json with policy now
+2025-05-25 15:12:58,532 DEBUG   HandlerThread:16537 [handler.py:handle_request():146] handle_request: python_packages
+2025-05-25 15:12:58,533 DEBUG   HandlerThread:16537 [handler.py:handle_request():146] handle_request: stop_status
+2025-05-25 15:12:58,534 DEBUG   SenderThread:16537 [sender.py:send_request():405] send_request: python_packages
+2025-05-25 15:12:58,535 DEBUG   SenderThread:16537 [sender.py:send_request():405] send_request: stop_status
+2025-05-25 15:12:58,536 DEBUG   HandlerThread:16537 [handler.py:handle_request():146] handle_request: internal_messages
+2025-05-25 15:12:58,681 DEBUG   SenderThread:16537 [sender.py:send():378] send: telemetry
+2025-05-25 15:12:58,732 INFO    Thread-12 :16537 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-3-data-validation/exercises/exercise_8/starter/wandb/run-20250525_151257-72xqjtqr/files/output.log
+2025-05-25 15:12:58,733 INFO    Thread-12 :16537 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-3-data-validation/exercises/exercise_8/starter/wandb/run-20250525_151257-72xqjtqr/files/requirements.txt
+2025-05-25 15:12:58,733 INFO    Thread-12 :16537 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-3-data-validation/exercises/exercise_8/starter/wandb/run-20250525_151257-72xqjtqr/files/wandb-metadata.json
+2025-05-25 15:12:58,733 INFO    Thread-12 :16537 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-3-data-validation/exercises/exercise_8/starter/wandb/run-20250525_151257-72xqjtqr/files/conda-environment.yaml
+2025-05-25 15:12:58,890 INFO    wandb-upload_0:16537 [upload_job.py:push():131] Uploaded file /tmp/tmpmd1xksnywandb/q6o0x4sk-wandb-metadata.json
+2025-05-25 15:12:58,927 DEBUG   SenderThread:16537 [sender.py:send():378] send: use_artifact
+2025-05-25 15:12:59,659 DEBUG   SenderThread:16537 [sender.py:send():378] send: use_artifact
+2025-05-25 15:13:00,010 DEBUG   SenderThread:16537 [sender.py:send():378] send: exit
+2025-05-25 15:13:00,010 INFO    SenderThread:16537 [sender.py:send_exit():585] handling exit code: 0
+2025-05-25 15:13:00,010 INFO    SenderThread:16537 [sender.py:send_exit():587] handling runtime: 2
+2025-05-25 15:13:00,011 INFO    SenderThread:16537 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2025-05-25 15:13:00,011 INFO    SenderThread:16537 [sender.py:send_exit():593] send defer
+2025-05-25 15:13:00,012 DEBUG   HandlerThread:16537 [handler.py:handle_request():146] handle_request: defer
+2025-05-25 15:13:00,012 INFO    HandlerThread:16537 [handler.py:handle_request_defer():172] handle defer: 0
+2025-05-25 15:13:00,012 DEBUG   SenderThread:16537 [sender.py:send_request():405] send_request: defer
+2025-05-25 15:13:00,012 INFO    SenderThread:16537 [sender.py:send_request_defer():609] handle sender defer: 0
+2025-05-25 15:13:00,012 INFO    SenderThread:16537 [sender.py:transition_state():613] send defer: 1
+2025-05-25 15:13:00,012 DEBUG   HandlerThread:16537 [handler.py:handle_request():146] handle_request: defer
+2025-05-25 15:13:00,012 INFO    HandlerThread:16537 [handler.py:handle_request_defer():172] handle defer: 1
+2025-05-25 15:13:00,012 DEBUG   SenderThread:16537 [sender.py:send_request():405] send_request: defer
+2025-05-25 15:13:00,012 INFO    SenderThread:16537 [sender.py:send_request_defer():609] handle sender defer: 1
+2025-05-25 15:13:00,012 INFO    SenderThread:16537 [sender.py:transition_state():613] send defer: 2
+2025-05-25 15:13:00,013 DEBUG   HandlerThread:16537 [handler.py:handle_request():146] handle_request: defer
+2025-05-25 15:13:00,013 INFO    HandlerThread:16537 [handler.py:handle_request_defer():172] handle defer: 2
+2025-05-25 15:13:00,013 INFO    HandlerThread:16537 [system_monitor.py:finish():203] Stopping system monitor
+2025-05-25 15:13:00,013 DEBUG   SystemMonitor:16537 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-05-25 15:13:00,013 DEBUG   SystemMonitor:16537 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-05-25 15:13:00,013 DEBUG   SystemMonitor:16537 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-05-25 15:13:00,014 INFO    HandlerThread:16537 [interfaces.py:finish():202] Joined cpu monitor
+2025-05-25 15:13:00,014 INFO    HandlerThread:16537 [interfaces.py:finish():202] Joined disk monitor
+2025-05-25 15:13:00,014 INFO    HandlerThread:16537 [interfaces.py:finish():202] Joined memory monitor
+2025-05-25 15:13:00,014 INFO    HandlerThread:16537 [interfaces.py:finish():202] Joined network monitor
+2025-05-25 15:13:00,014 DEBUG   SenderThread:16537 [sender.py:send_request():405] send_request: defer
+2025-05-25 15:13:00,014 INFO    SenderThread:16537 [sender.py:send_request_defer():609] handle sender defer: 2
+2025-05-25 15:13:00,014 INFO    SenderThread:16537 [sender.py:transition_state():613] send defer: 3
+2025-05-25 15:13:00,014 DEBUG   HandlerThread:16537 [handler.py:handle_request():146] handle_request: defer
+2025-05-25 15:13:00,014 INFO    HandlerThread:16537 [handler.py:handle_request_defer():172] handle defer: 3
+2025-05-25 15:13:00,015 DEBUG   SenderThread:16537 [sender.py:send_request():405] send_request: defer
+2025-05-25 15:13:00,015 INFO    SenderThread:16537 [sender.py:send_request_defer():609] handle sender defer: 3
+2025-05-25 15:13:00,015 INFO    SenderThread:16537 [sender.py:transition_state():613] send defer: 4
+2025-05-25 15:13:00,015 DEBUG   HandlerThread:16537 [handler.py:handle_request():146] handle_request: defer
+2025-05-25 15:13:00,015 INFO    HandlerThread:16537 [handler.py:handle_request_defer():172] handle defer: 4
+2025-05-25 15:13:00,015 DEBUG   SenderThread:16537 [sender.py:send_request():405] send_request: defer
+2025-05-25 15:13:00,015 INFO    SenderThread:16537 [sender.py:send_request_defer():609] handle sender defer: 4
+2025-05-25 15:13:00,015 INFO    SenderThread:16537 [sender.py:transition_state():613] send defer: 5
+2025-05-25 15:13:00,015 DEBUG   HandlerThread:16537 [handler.py:handle_request():146] handle_request: defer
+2025-05-25 15:13:00,016 INFO    HandlerThread:16537 [handler.py:handle_request_defer():172] handle defer: 5
+2025-05-25 15:13:00,016 DEBUG   SenderThread:16537 [sender.py:send():378] send: summary
+2025-05-25 15:13:00,016 INFO    SenderThread:16537 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2025-05-25 15:13:00,016 DEBUG   SenderThread:16537 [sender.py:send_request():405] send_request: defer
+2025-05-25 15:13:00,016 INFO    SenderThread:16537 [sender.py:send_request_defer():609] handle sender defer: 5
+2025-05-25 15:13:00,016 INFO    SenderThread:16537 [sender.py:transition_state():613] send defer: 6
+2025-05-25 15:13:00,016 DEBUG   HandlerThread:16537 [handler.py:handle_request():146] handle_request: defer
+2025-05-25 15:13:00,017 INFO    HandlerThread:16537 [handler.py:handle_request_defer():172] handle defer: 6
+2025-05-25 15:13:00,017 DEBUG   SenderThread:16537 [sender.py:send_request():405] send_request: defer
+2025-05-25 15:13:00,017 INFO    SenderThread:16537 [sender.py:send_request_defer():609] handle sender defer: 6
+2025-05-25 15:13:00,019 DEBUG   HandlerThread:16537 [handler.py:handle_request():146] handle_request: status_report
+2025-05-25 15:13:00,094 INFO    SenderThread:16537 [sender.py:transition_state():613] send defer: 7
+2025-05-25 15:13:00,094 DEBUG   HandlerThread:16537 [handler.py:handle_request():146] handle_request: defer
+2025-05-25 15:13:00,094 INFO    HandlerThread:16537 [handler.py:handle_request_defer():172] handle defer: 7
+2025-05-25 15:13:00,094 DEBUG   SenderThread:16537 [sender.py:send_request():405] send_request: defer
+2025-05-25 15:13:00,095 INFO    SenderThread:16537 [sender.py:send_request_defer():609] handle sender defer: 7
+2025-05-25 15:13:00,693 INFO    SenderThread:16537 [sender.py:transition_state():613] send defer: 8
+2025-05-25 15:13:00,693 DEBUG   HandlerThread:16537 [handler.py:handle_request():146] handle_request: defer
+2025-05-25 15:13:00,693 INFO    HandlerThread:16537 [handler.py:handle_request_defer():172] handle defer: 8
+2025-05-25 15:13:00,693 DEBUG   SenderThread:16537 [sender.py:send_request():405] send_request: defer
+2025-05-25 15:13:00,693 INFO    SenderThread:16537 [sender.py:send_request_defer():609] handle sender defer: 8
+2025-05-25 15:13:00,693 INFO    SenderThread:16537 [job_builder.py:build():298] Attempting to build job artifact
+2025-05-25 15:13:00,693 INFO    SenderThread:16537 [job_builder.py:_get_source_type():428] is repo sourced job
+2025-05-25 15:13:00,694 INFO    SenderThread:16537 [sender.py:transition_state():613] send defer: 9
+2025-05-25 15:13:00,694 DEBUG   HandlerThread:16537 [handler.py:handle_request():146] handle_request: defer
+2025-05-25 15:13:00,694 INFO    HandlerThread:16537 [handler.py:handle_request_defer():172] handle defer: 9
+2025-05-25 15:13:00,694 DEBUG   SenderThread:16537 [sender.py:send_request():405] send_request: defer
+2025-05-25 15:13:00,694 INFO    SenderThread:16537 [sender.py:send_request_defer():609] handle sender defer: 9
+2025-05-25 15:13:00,694 INFO    SenderThread:16537 [dir_watcher.py:finish():358] shutting down directory watcher
+2025-05-25 15:13:00,731 INFO    Thread-12 :16537 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-3-data-validation/exercises/exercise_8/starter/wandb/run-20250525_151257-72xqjtqr/files/output.log
+2025-05-25 15:13:00,732 INFO    SenderThread:16537 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-3-data-validation/exercises/exercise_8/starter/wandb/run-20250525_151257-72xqjtqr/files/config.yaml
+2025-05-25 15:13:00,732 INFO    SenderThread:16537 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-3-data-validation/exercises/exercise_8/starter/wandb/run-20250525_151257-72xqjtqr/files/wandb-summary.json
+2025-05-25 15:13:00,732 INFO    SenderThread:16537 [dir_watcher.py:finish():388] scan: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-3-data-validation/exercises/exercise_8/starter/wandb/run-20250525_151257-72xqjtqr/files
+2025-05-25 15:13:00,733 INFO    SenderThread:16537 [dir_watcher.py:finish():402] scan save: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-3-data-validation/exercises/exercise_8/starter/wandb/run-20250525_151257-72xqjtqr/files/requirements.txt requirements.txt
+2025-05-25 15:13:00,733 INFO    SenderThread:16537 [dir_watcher.py:finish():402] scan save: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-3-data-validation/exercises/exercise_8/starter/wandb/run-20250525_151257-72xqjtqr/files/wandb-summary.json wandb-summary.json
+2025-05-25 15:13:00,733 INFO    SenderThread:16537 [dir_watcher.py:finish():402] scan save: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-3-data-validation/exercises/exercise_8/starter/wandb/run-20250525_151257-72xqjtqr/files/output.log output.log
+2025-05-25 15:13:00,733 INFO    SenderThread:16537 [dir_watcher.py:finish():402] scan save: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-3-data-validation/exercises/exercise_8/starter/wandb/run-20250525_151257-72xqjtqr/files/conda-environment.yaml conda-environment.yaml
+2025-05-25 15:13:00,733 INFO    SenderThread:16537 [dir_watcher.py:finish():402] scan save: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-3-data-validation/exercises/exercise_8/starter/wandb/run-20250525_151257-72xqjtqr/files/config.yaml config.yaml
+2025-05-25 15:13:00,733 INFO    SenderThread:16537 [dir_watcher.py:finish():402] scan save: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-3-data-validation/exercises/exercise_8/starter/wandb/run-20250525_151257-72xqjtqr/files/wandb-metadata.json wandb-metadata.json
+2025-05-25 15:13:00,733 INFO    SenderThread:16537 [sender.py:transition_state():613] send defer: 10
+2025-05-25 15:13:00,734 DEBUG   HandlerThread:16537 [handler.py:handle_request():146] handle_request: defer
+2025-05-25 15:13:00,734 INFO    HandlerThread:16537 [handler.py:handle_request_defer():172] handle defer: 10
+2025-05-25 15:13:00,738 DEBUG   SenderThread:16537 [sender.py:send_request():405] send_request: defer
+2025-05-25 15:13:00,738 INFO    SenderThread:16537 [sender.py:send_request_defer():609] handle sender defer: 10
+2025-05-25 15:13:00,738 INFO    SenderThread:16537 [file_pusher.py:finish():172] shutting down file pusher
+2025-05-25 15:13:00,985 INFO    wandb-upload_0:16537 [upload_job.py:push():131] Uploaded file /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-3-data-validation/exercises/exercise_8/starter/wandb/run-20250525_151257-72xqjtqr/files/requirements.txt
+2025-05-25 15:13:01,010 DEBUG   HandlerThread:16537 [handler.py:handle_request():146] handle_request: poll_exit
+2025-05-25 15:13:01,010 DEBUG   SenderThread:16537 [sender.py:send_request():405] send_request: poll_exit
+2025-05-25 15:13:01,088 INFO    wandb-upload_2:16537 [upload_job.py:push():131] Uploaded file /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-3-data-validation/exercises/exercise_8/starter/wandb/run-20250525_151257-72xqjtqr/files/output.log
+2025-05-25 15:13:01,093 INFO    wandb-upload_1:16537 [upload_job.py:push():131] Uploaded file /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-3-data-validation/exercises/exercise_8/starter/wandb/run-20250525_151257-72xqjtqr/files/wandb-summary.json
+2025-05-25 15:13:01,124 INFO    wandb-upload_4:16537 [upload_job.py:push():131] Uploaded file /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-3-data-validation/exercises/exercise_8/starter/wandb/run-20250525_151257-72xqjtqr/files/config.yaml
+2025-05-25 15:13:01,126 INFO    wandb-upload_3:16537 [upload_job.py:push():131] Uploaded file /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-3-data-validation/exercises/exercise_8/starter/wandb/run-20250525_151257-72xqjtqr/files/conda-environment.yaml
+2025-05-25 15:13:01,327 INFO    Thread-11 (_thread_body):16537 [sender.py:transition_state():613] send defer: 11
+2025-05-25 15:13:01,328 DEBUG   HandlerThread:16537 [handler.py:handle_request():146] handle_request: defer
+2025-05-25 15:13:01,328 INFO    HandlerThread:16537 [handler.py:handle_request_defer():172] handle defer: 11
+2025-05-25 15:13:01,330 DEBUG   SenderThread:16537 [sender.py:send_request():405] send_request: defer
+2025-05-25 15:13:01,330 INFO    SenderThread:16537 [sender.py:send_request_defer():609] handle sender defer: 11
+2025-05-25 15:13:01,330 INFO    SenderThread:16537 [file_pusher.py:join():178] waiting for file pusher
+2025-05-25 15:13:01,331 INFO    SenderThread:16537 [sender.py:transition_state():613] send defer: 12
+2025-05-25 15:13:01,332 DEBUG   HandlerThread:16537 [handler.py:handle_request():146] handle_request: defer
+2025-05-25 15:13:01,332 INFO    HandlerThread:16537 [handler.py:handle_request_defer():172] handle defer: 12
+2025-05-25 15:13:01,332 DEBUG   SenderThread:16537 [sender.py:send_request():405] send_request: defer
+2025-05-25 15:13:01,332 INFO    SenderThread:16537 [sender.py:send_request_defer():609] handle sender defer: 12
+2025-05-25 15:13:01,332 INFO    SenderThread:16537 [file_stream.py:finish():595] file stream finish called
+2025-05-25 15:13:01,688 INFO    SenderThread:16537 [file_stream.py:finish():599] file stream finish is done
+2025-05-25 15:13:01,688 INFO    SenderThread:16537 [sender.py:transition_state():613] send defer: 13
+2025-05-25 15:13:01,688 DEBUG   HandlerThread:16537 [handler.py:handle_request():146] handle_request: defer
+2025-05-25 15:13:01,689 INFO    HandlerThread:16537 [handler.py:handle_request_defer():172] handle defer: 13
+2025-05-25 15:13:01,689 DEBUG   SenderThread:16537 [sender.py:send_request():405] send_request: defer
+2025-05-25 15:13:01,689 INFO    SenderThread:16537 [sender.py:send_request_defer():609] handle sender defer: 13
+2025-05-25 15:13:01,690 INFO    SenderThread:16537 [sender.py:transition_state():613] send defer: 14
+2025-05-25 15:13:01,690 DEBUG   HandlerThread:16537 [handler.py:handle_request():146] handle_request: defer
+2025-05-25 15:13:01,690 INFO    HandlerThread:16537 [handler.py:handle_request_defer():172] handle defer: 14
+2025-05-25 15:13:01,691 DEBUG   SenderThread:16537 [sender.py:send():378] send: final
+2025-05-25 15:13:01,691 DEBUG   SenderThread:16537 [sender.py:send():378] send: footer
+2025-05-25 15:13:01,692 DEBUG   SenderThread:16537 [sender.py:send_request():405] send_request: defer
+2025-05-25 15:13:01,692 INFO    SenderThread:16537 [sender.py:send_request_defer():609] handle sender defer: 14
+2025-05-25 15:13:01,693 DEBUG   HandlerThread:16537 [handler.py:handle_request():146] handle_request: poll_exit
+2025-05-25 15:13:01,693 DEBUG   SenderThread:16537 [sender.py:send_request():405] send_request: poll_exit
+2025-05-25 15:13:01,695 DEBUG   HandlerThread:16537 [handler.py:handle_request():146] handle_request: poll_exit
+2025-05-25 15:13:01,696 DEBUG   SenderThread:16537 [sender.py:send_request():405] send_request: poll_exit
+2025-05-25 15:13:01,697 DEBUG   HandlerThread:16537 [handler.py:handle_request():146] handle_request: server_info
+2025-05-25 15:13:01,697 DEBUG   HandlerThread:16537 [handler.py:handle_request():146] handle_request: get_summary
+2025-05-25 15:13:01,697 DEBUG   HandlerThread:16537 [handler.py:handle_request():146] handle_request: sampled_history
+2025-05-25 15:13:01,697 DEBUG   HandlerThread:16537 [handler.py:handle_request():146] handle_request: internal_messages
+2025-05-25 15:13:01,698 DEBUG   SenderThread:16537 [sender.py:send_request():405] send_request: server_info
+2025-05-25 15:13:01,700 DEBUG   HandlerThread:16537 [handler.py:handle_request():146] handle_request: job_info
+2025-05-25 15:13:01,761 DEBUG   SenderThread:16537 [sender.py:send_request():405] send_request: job_info
+2025-05-25 15:13:01,763 INFO    MainThread:16537 [wandb_run.py:_footer_history_summary_info():3851] rendering history
+2025-05-25 15:13:01,763 INFO    MainThread:16537 [wandb_run.py:_footer_history_summary_info():3883] rendering summary
+2025-05-25 15:13:01,763 INFO    MainThread:16537 [wandb_run.py:_footer_sync_info():3810] logging synced files
+2025-05-25 15:13:01,763 DEBUG   HandlerThread:16537 [handler.py:handle_request():146] handle_request: shutdown
+2025-05-25 15:13:01,763 INFO    HandlerThread:16537 [handler.py:finish():869] shutting down handler
+2025-05-25 15:13:02,700 INFO    WriterThread:16537 [datastore.py:close():296] close: /home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-3-data-validation/exercises/exercise_8/starter/wandb/run-20250525_151257-72xqjtqr/run-72xqjtqr.wandb
+2025-05-25 15:13:02,763 INFO    SenderThread:16537 [sender.py:finish():1521] shutting down sender
+2025-05-25 15:13:02,763 INFO    SenderThread:16537 [file_pusher.py:finish():172] shutting down file pusher
+2025-05-25 15:13:02,763 INFO    SenderThread:16537 [file_pusher.py:join():178] waiting for file pusher

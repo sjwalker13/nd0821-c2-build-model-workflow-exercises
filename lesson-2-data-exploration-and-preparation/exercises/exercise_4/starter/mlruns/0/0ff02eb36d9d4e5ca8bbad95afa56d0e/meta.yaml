@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/0ff02eb36d9d4e5ca8bbad95afa56d0e/artifacts
+end_time: 1747578764877
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0ff02eb36d9d4e5ca8bbad95afa56d0e
+run_name: bold-roo-695
+run_uuid: 0ff02eb36d9d4e5ca8bbad95afa56d0e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747578762383
+status: 4
+tags: []
+user_id: sjwalker

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/4786980cdf4146af908b838fa8a7edb9/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4786980cdf4146af908b838fa8a7edb9
+run_name: grandiose-goose-954
+run_uuid: 4786980cdf4146af908b838fa8a7edb9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747583189654
+status: 1
+tags: []
+user_id: sjwalker

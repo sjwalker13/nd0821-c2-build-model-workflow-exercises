@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/0201e778d0fe4306962a1e0e64f3b3bb/artifacts
+end_time: 1748278201409
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0201e778d0fe4306962a1e0e64f3b3bb
+run_name: sassy-cow-864
+run_uuid: 0201e778d0fe4306962a1e0e64f3b3bb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748278183435
+status: 3
+tags: []
+user_id: sjwalker

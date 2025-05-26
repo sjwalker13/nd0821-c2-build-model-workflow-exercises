@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/fa8b48eafbc34e7c90e1e9f12ceec11b/artifacts
+end_time: 1748278784588
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fa8b48eafbc34e7c90e1e9f12ceec11b
+run_name: burly-crane-195
+run_uuid: fa8b48eafbc34e7c90e1e9f12ceec11b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748278667928
+status: 3
+tags: []
+user_id: sjwalker

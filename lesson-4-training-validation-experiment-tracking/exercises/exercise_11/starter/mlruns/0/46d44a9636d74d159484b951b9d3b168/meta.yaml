@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/46d44a9636d74d159484b951b9d3b168/artifacts
+end_time: 1748278730117
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 46d44a9636d74d159484b951b9d3b168
+run_name: receptive-smelt-313
+run_uuid: 46d44a9636d74d159484b951b9d3b168
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748278647047
+status: 3
+tags: []
+user_id: sjwalker

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/6cee09252b4849219988ec39a5a697e4/artifacts
+end_time: 1748271509282
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6cee09252b4849219988ec39a5a697e4
+run_name: incongruous-bear-579
+run_uuid: 6cee09252b4849219988ec39a5a697e4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748271507441
+status: 4
+tags: []
+user_id: sjwalker

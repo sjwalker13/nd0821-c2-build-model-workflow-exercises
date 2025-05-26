@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sjwalker/nd0821-c2-build-model-workflow-exercises-4/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/64aa1927af1c4da39d2c4f506c8d38c8/artifacts
+end_time: 1748278777086
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 64aa1927af1c4da39d2c4f506c8d38c8
+run_name: adventurous-worm-36
+run_uuid: 64aa1927af1c4da39d2c4f506c8d38c8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748278654971
+status: 3
+tags: []
+user_id: sjwalker
